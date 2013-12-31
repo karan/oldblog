@@ -8,5 +8,5 @@ logo: false
 paginate: 15
 
 # Details for the RSS feed generator
-url:            'http://karan.github.io/'
+url:            'http://localhost:4000'
 author:         'Karan Goel'

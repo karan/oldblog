@@ -53,17 +53,14 @@ archive: false
                 		<!-- Author Name -->
                     	<h4> {{ site.author }} </h4>
                     	<!-- Author Bio -->
-                    	<p> 
-                    		Here goes the author description. You might want to place some links too in here
-                    	</p>
+                    	<p>I'm an undergraduate sophomore at the <a href="http://www.washington.edu"><b>University of Washington</b></a> in the <a href="http://www.cs.washington.edu"><b>Computer Science</b></a> program. I &lt;3 <a href="http://github.com/karan"><b>code</b></a>. I'm also an open data/open web evangelist on the side.</p>
                     </article>
                 </section>                
             {% endif %}
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="http://twitter.com/share?text={{page.title}}&amp;url={{ page.url }}"
-                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;TheKaranGoel" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
                 <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{page.url}}"
