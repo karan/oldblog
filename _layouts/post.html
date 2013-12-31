@@ -53,7 +53,7 @@ archive: false
                 		<!-- Author Name -->
                     	<h4> {{ site.author }} </h4>
                     	<!-- Author Bio -->
-                    	<p>I'm an undergraduate sophomore at the <a href="http://www.washington.edu"><b>University of Washington</b></a> in the <a href="http://www.cs.washington.edu"><b>Computer Science</b></a> program. I &lt;3 <a href="http://github.com/karan"><b>code</b></a>. I'm also an open data/open web evangelist on the side.</p>
+                    	<p><a href="http://www.goel.im">Karan Goel</a> is an undergraduate sophomore at the <a href="http://www.washington.edu"><b>University of Washington</b></a> in the <a href="http://www.cs.washington.edu"><b>Computer Science</b></a> program. He &lt;3's <a href="http://github.com/karan"><b>code</b></a>. He is also an open data/open web evangelist on the side.</p>
                     </article>
                 </section>                
             {% endif %}
@@ -63,33 +63,15 @@ archive: false
                 <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;TheKaranGoel" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{page.url}}"
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
                     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url={{page.url}}"
+                <a class="icon-google-plus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"
                    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
             </section>
-            
-            {% if page.disqus %}
-            <section class="disqus">
-            	<div id="disqus_thread"></div>
-            	<script type="text/javascript">
-
-            	    var disqus_shortname = ''; 
-            		var disqus_developer = 0; // developer mode is on
-            	    (function() {
-            	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            	        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-            	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            	    })();
-            	</script>
-            	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-            	<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-            </section>
-            {% endif %}
         	
         </footer>
 
