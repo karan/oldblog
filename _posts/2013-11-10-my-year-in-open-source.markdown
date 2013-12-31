@@ -10,11 +10,11 @@ This post is my reflection of my work in open source and side projects in 2013.
 
 ![]({{ site.url }}/assets/images/year-1.png)
 
-I joined [Github](https://github.com/) about 50 weeks ago, after reading a lot about it over on reddit. But the whole concept of version control made no sense to me at all. Like, what is "*distributed* version control", "who would use it", "fuck it", "open source, ok cool". So, naturally, I didn't use it much.
+I joined [Github](https://github.com/) about 50 weeks ago, after reading a lot about it over on reddit. But the whole concept of version control made no sense to me at all. Like, what is "*distributed* version control", "who would use it", "open source, ok cool". So, naturally, I didn't use it much.
 
 Now here's the weird thing - a few days ago, I completed a [180-days streak](https://github.com/karan) over on Github. Why? I have no idea. How? I kept on starting new projects, always working on stuff. Was it a good thing? Some will say no, I could have learned, say guitar, in that time. But if life is all about learning new things, and doing things you love, then I don't regret it a bit.
 
-Now, by this point, you probably know that my writing sucks ass. I find it easier to create a timeline to get my message across. My timeline will be guided by the projects I worked on.
+Now, by this point, you probably know that my writing sucks. I find it easier to create a timeline to get my message across. My timeline will be guided by the projects I worked on.
 
 ### A (solicited) list of my projects from 2013 in chronological order
 
