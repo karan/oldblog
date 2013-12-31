@@ -1,0 +1,12 @@
+name: Karan Goel
+description: Just my thoughts
+meta_description: "Karan Goel's blog"
+
+markdown: redcarpet
+pygments: true
+logo: false
+paginate: 15
+
+# Details for the RSS feed generator
+url:            'http://karan.github.io/'
+author:         'Karan Goel'
