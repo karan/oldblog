@@ -8,7 +8,7 @@ This is an update on the research I did under the guidance of [Jeff Huang](http:
 
 -------------
 
-Back in August 2013, I applied for a paid undergraduate research assistantship. The job listing seemed like a perfect fit for me, and the requirements aligned with my interests and skills. This was my first research project, and I was super excited to get started. We were super lucky to be funded early on [Experiment.com](https://experiment.com/home) and I worked on this for about a year.
+Back in August 2012, I applied for a paid undergraduate research assistantship. The job listing seemed like a perfect fit for me, and the requirements aligned with my interests and skills. This was my first research project, and I was super excited to get started. We were super lucky to be funded early on [Experiment.com](https://experiment.com/home) and I worked on this for about a year.
 
 <iframe title="Why this research?" width="480" height="390" src="https://player.vimeo.com/video/40080540" frameborder="0" allowfullscreen></iframe>
 
