@@ -8,11 +8,17 @@ This is an update on the research I did under the guidance of [Jeff Huang](http:
 
 -------------
 
-Back in August 2012, I applied for a paid undergraduate research assistantship. The job listing seemed like a perfect fit for me, and the requirements aligned with my interests and skills. This was my first research project, and I was super excited to get started. We were super lucky to be funded early on [Experiment.com](https://experiment.com/home) and I worked on this for about a year.
+As an experienced ex-blogger and an avid internet marketer, I can firmly say that every Internet user with an email address has received spam email more than just once. Spam is not just unsolicited, unapproved contact by a stranger; sometimes spam can lead to loss of money and even theft of identity. As spammers get more sophisticated, it becomes difficult for anyone to differentiate spam emails from genuine emails. Companies all across the world, irrespective of their market, location or size, incur loss of resources, human power and money due to spam. Tech companies, like Google and Yahoo, use about 30 billion watts of electricity (1), and a significant part of it is used to support data servers that store spam emails. It’s amazing just to think about how much energy and money these companies would save if there were no spam. 
+
+People are spending a lot of time reviewing spam, and even with strong spam filters they still have to check their spam folder for misclassified email. Everyone has had the problem where an important email fell into the spam folder. We were looking at the root of the problem - how spammers get your email addresses in the first place. To make a medical analogy, there is treating the illness after it's already happened, and there is learning more about the root cause of the illness so it can be prevented completely.
 
 <iframe title="Why this research?" width="480" height="390" src="https://player.vimeo.com/video/40080540" frameborder="0" allowfullscreen></iframe>
 
-Sere are the results we got after one year of waiting and after posting email addresses to numerous different types of websites and online services.
+Back in August 2012, I stumbled upon this amazing research opportunity presented by the Information School at the UW – to be a part of the research to find out how spammers harvest peoples' email addresses, and how it can be prevented. I instantly related to this research since I have been at the receiving (and sadly, sending) side of spam emails, and I understand what a spam email really costs – nothing to the sender, a lot to the receiver.
+
+I was super excited to get started with this research project. We were super lucky to be funded early on [Experiment.com](https://experiment.com/home) and I worked on this for about a year.
+
+So, here are the results we got after one year of waiting and after posting email addresses to numerous different types of websites and online services.
 
 #### First, a cloud.
 
@@ -189,4 +195,18 @@ So is there no way to beat spammers? Of course there is.
 
 I have made all scripts used to analyse the data available on [Github](https://github.com/karan/SpamHarvestUW). This code was written when I was just starting to learn Python, so please excuse the code quality.
 
-What do you think of our research? Reach out to us via email: me@jeffhuang.com / karan@goel.im
+What do you think of our research? Reach out to me via email: karan@goel.im
+
+----------
+
+### References:
+
+(1) James Glanze, "Power, Pollution and the Internet" (NYTimes), 22 September 2012 <http://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html>
+
+### Related work
+
+Kyumin Lee, James Caverlee, Steve Webb, "The Social Honeypot Project: Protecting Online Communities from Spammers", 2010
+
+Craig A. Shue, Minaxi Gupta, Chin Hua Kong, John T. Lubia, Asim S. Yuksel, "Spamology: A Study of Spam Origins", 2009
+
+Center For Democracy & Technology, "Why Am I Getting All This Spam?", 2003
