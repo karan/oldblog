@@ -8,7 +8,15 @@
     <title>Karan Goel</title>
     <link>http://karan.github.io</link>
     <description>Just my thoughts</description>
-    <pubDate>Tue, 31 Dec 2013 08:42:00 -0000</pubDate>
+    <pubDate>Wed, 26 Mar 2014 17:00:00 -0000</pubDate>
+    <item>
+      <title>How do spammers harvest your e-mail address?</title>
+      <link>http://karan.github.io/2014/03/26/email-spam.html</link>
+      <description>&lt;p&gt;This is an update on the research I did under the guidance of &lt;a href=&quot;http://jeffhuang.com/&quot;&gt;Jeff Huang&lt;/a&gt; (now assistant professor at Brown University) titled &lt;a href=&quot;https://experiment.com/projects/how-do-spammers-harvest-your-e-mail-address&quot;&gt;How do spammers harvest your e-mail address?&lt;/a&gt;.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 26 Mar 2014 17:00:00 -0000</pubDate>
+      <dc:date>2014-03-26T17:00:00Z</dc:date>
+    </item>
     <item>
       <title>My year in open source and side projects!</title>
       <link>http://karan.github.io/2013/12/31/my-year-in-open-source.html</link>
@@ -17,6 +25,6 @@
       <pubDate>Tue, 31 Dec 2013 08:42:00 -0000</pubDate>
       <dc:date>2013-12-31T08:42:00Z</dc:date>
     </item>
-    <dc:date>2013-12-31T08:42:00Z</dc:date>
+    <dc:date>2014-03-26T17:00:00Z</dc:date>
   </channel>
 </rss>
