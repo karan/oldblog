@@ -50,13 +50,11 @@
 
 <p>But it&#39;s not just the companies that suffer losses from email spam. People like you and me are spending a lot of time reviewing spam, and even with strong spam filters they still have to check their spam folder for misclassified email. Everyone has had the problem where an important email fell into the spam folder. </p>
 
-<p>We were looking at the root of the problem - how spammers get your email addresses in the first place. To make a medical analogy, there is treating the illness after it&#39;s already happened, and there is learning more about the root cause of the illness so it can be prevented completely.</p>
-
 <iframe title="Why this research?" width="480" height="390" src="https://player.vimeo.com/video/40080540" frameborder="0" allowfullscreen></iframe>
 
 <p>Back in August 2012, I stumbled upon this amazing research opportunity presented by the Information School at the UW – to be a part of the research to find out how spammers harvest peoples&#39; email addresses, and how it can be prevented. I instantly related to this research since I have been at the receiving (and sadly, sending) side of spam emails, and I understand what a spam email really costs – nothing to the sender, a lot to the receiver.</p>
 
-<p>I was super excited to get started with this research project. We were super lucky to be funded early on <a href="https://experiment.com/home">Experiment.com</a> and I worked on this for about a year.</p>
+<p>I was super excited to get started with this research project. We were super lucky to be funded early on <a href="https://experiment.com/home">Experiment.com</a> and I worked on this for about a year. We were looking at the root of the problem - how spammers get your email addresses in the first place. To make a medical analogy, there is treating the illness after it&#39;s already happened, and there is learning more about the root cause of the illness so it can be prevented completely.</p>
 
 <p>Now, there have been many such studies in the past (see <em>References</em> below), so how is this study different from the others? For one, this is new, raw data we collected. The Internet space moves so fast, that to be ahead of spammers and scammers, you have to find out how they operate - and how they operate changes all the time. Secondly, most other (newer) studies are not as comprehensive as this one is. They usually just cover social network spam, or sites selling email lists. We tried to cover as much ground as possible, and collect as much data as possible to back us up.</p>
 
@@ -64,7 +62,7 @@
 
 <h4>First, a cloud.</h4>
 
-<p><img src="http://i.imgur.com/WhQdVyI.png" alt=""></p>
+<p><img src="http://i.imgur.com/bMsibZ2.png" alt=""></p>
 
 <p>This is a simple cloud of the words spammer use the most in their email subject lines. The most used words, as seen, are &quot;free&quot;, &quot;credit&quot;, &quot;score&quot;, &quot;home&quot; etc. I expected &quot;viagra&quot; to be one of the top words, but I guess they are not using it in subject lines to bypass spam filters.</p>
 
@@ -76,70 +74,84 @@
 
 <p><img src="http://i.imgur.com/JArs4V7.png" alt=""></p>
 
-<p>A human-readable list of the platforms:</p>
+<p>A human-readable list of the platforms with the number of emails posted there:</p>
 
 <ul>
-<li>Usenet discussion board (almost 10% emails)</li>
-<li>Blog comments on abandoned blogs</li>
-<li>Pubic profiles on forums</li>
-<li>Twitter Tweets</li>
-<li>Twitter bio</li>
-<li>Web 2.0 sites/blogs</li>
-<li>Craigslist forums</li>
-<li>Yahoo answers</li>
-<li>Win-something, free ipad/iphone offers</li>
-<li>Insurance quote sites</li>
-<li>Public guestbooks</li>
-<li>Online paste sites (pastebin.com etc)</li>
-<li>Document sharing sites (Scribd etc)</li>
-<li>On my own sites</li>
-<li>Craigslist discussion board</li>
-<li>YouTube video description/title</li>
-<li>App store reviews (Apple, Chrome, Firefox etc)</li>
+<li>App store reviews (Apple, Chrome, Firefox etc): 4</li>
+<li>Blog comment: 119</li>
+<li>Blogging site (wordpress, blogger etc): 142</li>
+<li>Craigslist discussion board: 6</li>
+<li>File hostedon Dropbox: 12</li>
+<li>Ecommerce sites like Amazon: 5</li>
+<li>Facebook profile, wall and pages: 5</li>
+<li>File on server: 21</li>
+<li>Forum profiles: 234</li>
+<li>Github: 1</li>
+<li>Google doc: 7</li>
+<li>Google drawing: 2</li>
+<li>Greeting card generator sites: 18</li>
+<li>Guestbook: 12</li>
+<li>Loyalty Programs: 10</li>
+<li>Mailing list: 85</li>
+<li>&lt;meta&gt; tags of websites: 4</li>
+<li>Other social networks: 5</li>
+<li>PDF on server: 8</li>
+<li>Paste sites like Pastebin: 21</li>
+<li>Reddit: 9</li>
+<li>Scribd: 10</li>
+<li>Slideshare: 5</li>
+<li>Spammy mailing lists: 51</li>
+<li>Twitter: 2</li>
+<li>UW Directory: 1</li>
+<li>Usenet: 98</li>
+<li>Video site (YouTube video description/title): 53</li>
+<li>Whois: 5</li>
+<li>Wiki sites: 84</li>
+<li>Yahoo Answers: 25</li>
 </ul>
 
 <p>Since we wanted to study how to prevent spam, I also tested a lot of different email obfuscation techniques, and the graph below shows the distribution of them.</p>
 
 <p><img src="http://i.imgur.com/BUmIAtK.png" alt=""></p>
 
-<p>(<a href="https://experiment.com/u/hr9x0w">See what they mean</a>)</p>
+<p><strong>(<a href="https://experiment.com/u/hr9x0w">See what they mean</a>)</strong></p>
 
-<p>And a human-readable list of obfuscations:</p>
+<p>And a human-readable list of obfuscations with the number of emails that were used for each one:</p>
 
 <ul>
-<li><span> splitting</li>
-<li>ASCII</li>
-<li>Comment</li>
-<li>Different Hyperlink4</li>
-<li>HTML Unicode</li>
-<li>Image</li>
-<li>Invalid0</li>
-<li>Invisible</li>
-<li>JavaScript</li>
-<li>None4</li>
-<li>ROT-13</li>
-<li>email (at) irchiver (dot) com</li>
-<li>email @ irchiver . com</li>
-<li>email @ irchiver.com</li>
-<li>email AT irchiver DOT com</li>
-<li>email AT irchiver.com</li>
-<li>email [@] irchiver.com</li>
-<li>email [at] irchiver [dot] com</li>
-<li>email [at] irchiver.com</li>
-<li>email at irchiver dot com</li>
-<li>email-@-irchiver-.-com</li>
-<li>email-@-irchiver.com</li>
-<li>email-AT-irchiver-.-com</li>
-<li>email-AT-irchiver.com</li>
-<li>email-at-irchiver-dot-com</li>
-<li>email-at-irchiver.com</li>
-<li>email[@]irchiver.com</li>
-<li>email[@]irchiver[.]com</li>
-<li>email[at]irchiver.com</li>
-<li>email[at]irchiver[.]com</li>
-<li>email[at]irchiver[dot]com</li>
-<li>email[at]irciver.com</li>
-<li>iFrame</li>
+<li><span> splitting: 6</li>
+<li>ASCII: 17</li>
+<li>Comment: 3</li>
+<li>Different Hyperlink: 114</li>
+<li>HTML Unicode: 45</li>
+<li>Image: 21</li>
+<li>Invalid: 260</li>
+<li>Invisible: 59</li>
+<li>JavaScript: 18</li>
+<li>None: 484</li>
+<li>ROT-13: 2</li>
+<li>email (at) irchiver (dot) com: 1</li>
+<li>email @ irchiver . com: 23</li>
+<li>email @ irchiver.com: 18</li>
+<li>email AT irchiver DOT com: 5</li>
+<li>email AT irchiver.com: 1</li>
+<li>email [@] irchiver.com: 1</li>
+<li>email [at] irchiver [dot] com: 15</li>
+<li>email [at] irchiver.com: 8</li>
+<li>email at irchiver dot com: 2</li>
+<li>email-@-irchiver-.-com: 13</li>
+<li>email-@-irchiver.com: 2</li>
+<li>email-AT-irchiver-.-com: 1</li>
+<li>email-AT-irchiver.com: 11</li>
+<li>email-at-irchiver-dot-com: 4</li>
+<li>email-at-irchiver.com: 2</li>
+<li>email[@]irchiver.com: 1</li>
+<li>email[@]irchiver[.]com: 12</li>
+<li>email[at]irchiver.com: 2</li>
+<li>email[at]irchiver[.]com: 2</li>
+<li>email[at]irchiver[dot]com: 17</li>
+<li>email[at]irciver.com: 2</li>
+<li>iFrame: 2</li>
 </ul>
 
 <p>I also tried some different ways of spreading email, like making email anchored vs plain text or clickable vs bare text.</p>
