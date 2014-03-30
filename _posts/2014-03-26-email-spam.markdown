@@ -8,15 +8,19 @@ This is an update on the research I did under the guidance of [Jeff Huang](http:
 
 -------------
 
-As an experienced ex-blogger and an avid internet marketer, I can firmly say that every Internet user with an email address has received spam email more than just once. Spam is not just unsolicited, unapproved contact by a stranger; sometimes spam can lead to loss of money and even theft of identity. As spammers get more sophisticated, it becomes difficult for anyone to differentiate spam emails from genuine emails. Companies all across the world, irrespective of their market, location or size, incur loss of resources, human power and money due to spam. Tech companies, like Google and Yahoo, use about 30 billion watts of electricity (1), and a significant part of it is used to support data servers that store spam emails. It’s amazing just to think about how much energy and money these companies would save if there were no spam. 
+As an experienced ex-blogger and an avid internet marketer, I can firmly say that every Internet user with an email address has received spam email more than just once. Spam is not just unsolicited, unapproved contact by a stranger; sometimes spam can lead to loss of money and even theft of identity. As spammers get more sophisticated, it becomes difficult for anyone to differentiate spam emails from genuine emails. Companies all across the world, irrespective of their market, location or size, incur loss of resources, human power and money due to spam. Tech companies, like Google and Yahoo, use about 30 billion watts of electricity (1) - that's enough electricity to power 3 million houses for a year. It’s amazing just to think about how much energy and money these companies would save if there was no spam. 
 
-People are spending a lot of time reviewing spam, and even with strong spam filters they still have to check their spam folder for misclassified email. Everyone has had the problem where an important email fell into the spam folder. We were looking at the root of the problem - how spammers get your email addresses in the first place. To make a medical analogy, there is treating the illness after it's already happened, and there is learning more about the root cause of the illness so it can be prevented completely.
+But it's not just the companies that suffer losses from email spam. People like you and me are spending a lot of time reviewing spam, and even with strong spam filters they still have to check their spam folder for misclassified email. Everyone has had the problem where an important email fell into the spam folder. 
+
+We were looking at the root of the problem - how spammers get your email addresses in the first place. To make a medical analogy, there is treating the illness after it's already happened, and there is learning more about the root cause of the illness so it can be prevented completely.
 
 <iframe title="Why this research?" width="480" height="390" src="https://player.vimeo.com/video/40080540" frameborder="0" allowfullscreen></iframe>
 
 Back in August 2012, I stumbled upon this amazing research opportunity presented by the Information School at the UW – to be a part of the research to find out how spammers harvest peoples' email addresses, and how it can be prevented. I instantly related to this research since I have been at the receiving (and sadly, sending) side of spam emails, and I understand what a spam email really costs – nothing to the sender, a lot to the receiver.
 
 I was super excited to get started with this research project. We were super lucky to be funded early on [Experiment.com](https://experiment.com/home) and I worked on this for about a year.
+
+Now, there have been many such studies in the past (see *References* below), so how is this study different from the others? For one, this is new, raw data we collected. The Internet space moves so fast, that to be ahead of spammers and scammers, you have to find out how they operate - and how they operate changes all the time. Secondly, most other (newer) studies are not as comprehensive as this one is. They usually just cover social network spam, or sites selling email lists. We tried to cover as much ground as possible, and collect as much data as possible to back us up.
 
 So, here are the results we got after one year of waiting and after posting email addresses to numerous different types of websites and online services.
 
@@ -195,7 +199,7 @@ So is there no way to beat spammers? Of course there is.
 
 I have made all scripts used to analyse the data available on [Github](https://github.com/karan/SpamHarvestUW). This code was written when I was just starting to learn Python, so please excuse the code quality.
 
-What do you think of our research? Reach out to me via email: karan@goel.im
+What do you think of our research? Reach out to me via Twitter ([@TheKaranGoel](http://twitter.com/TheKaranGoel)) or via email: karan@goel.im
 
 ----------
 
