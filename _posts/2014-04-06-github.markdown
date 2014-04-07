@@ -1,0 +1,105 @@
+---
+layout: post
+permalink: open-source-101
+title:  "Getting started with open source contributions"
+date:   2014-03-26 17:00:00
+---
+
+The world is moving to open source. From indie developers to multi-billion dollar companies, everyone is making a significant impact on the world by making their software open. If you want to contribute to Firefox, or the core of a new programming language, but are not sure where to start, you start here!
+
+![](http://i.imgur.com/hZayDX8.png)
+
+#### But Karan, what exactly is open source?
+
+Since this is "Open Source 101", the first question you asked is appropriate. There are many different and sometimes conflicting definitions of open source. Some say that it's *free* software - not exactly true. Some say it's anything that's hosted on [Github](http://github.com/karan) - again, not accurate.
+
+The definition that I'm convinced with, and use to describe the concept of open source is this:
+
+> Software whose source code is made available for free under a license is called open source software.
+
+There are two keywords here:
+
+1. *free* - It's not open source anymore if I have to pay for the source code.
+2. *license* - Anything that doesn't explicitly mention usage restrictions should be considered copyrighted.
+
+What keeps open source software running is the concept of collaborative problem solving.
+
+> Open source allows people to stop complaining about problems and actually solve them.
+
+#### OK. But why would I contribute to open source?
+
+![](https://farm3.staticflickr.com/2892/8989294371_fe20afe3dc_z_d.jpg)
+
+"Time is Money". Then why would you spend your time doing something valuable for free? 
+
+- For most developers, working on open source software is just a **hobby**. There is no reason, it's just their past time hobby that helps them improve their own skill-set and make them more marketable (make the resume stronger).
+
+- Many beginners also start with open source to get **practice**. The amount you learn from contributing to open source, having your code reviewed by tens of people, is far, far more from just writing code for yourself.
+
+- Your favorite software has a bug, or is missing a feature. Open source is the way to **fix bugs or add new features** by yourself, right when you notice them. No more waiting, no more bureaucracy.
+
+- Take [Joyent](https://github.com/joyent) for example. They made node.js open source. But, they are a company and they have to **make money**. So how do they do it? Well, they make the software available for free, but provide services on top of it - hosting solutions and consulting. Their ideal customers aren't you and me, but other companies and maybe startups.
+
+- Some people also contribute to open source to build their **online presence**. After all, who doesn't like fake Internet points?
+
+#### So how do I get started?
+
+I'm glad you asked. :-)
+
+##### 1. Find a project
+
+The first step is to find a project that interests you. It can be something that you use (like VLC Player), or a library being used in something you use (like [marked](https://github.com/chjj/marked) library used by Atom Editor).
+
+Use the following websites to find projects that might interest you:
+
+- [**Github**](https://github.com/trending)
+
+    The biggest name in open source world, Github is the de-facto place to begin your search. Now, if you visit the [Trending](https://github.com/trending) page, seeing the size of the projects there might overwhelm you. Instead, use this [custom search query](https://github.com/search?o=desc&q=stars%3A%3C10&ref=searchresults&s=updated&type=Repositories) to find active projects with a smaller amount of activity. 
+
+- [**Bountysource**](https://www.bountysource.com/)
+
+    Bountysource is an interesting website - here, you can find projects and issues to work on, some of which also pay you. In some cases, spending a few hours fixing code might just earn you a couple hundred dollards. Pretty sweet.
+
+- [**Open Hatch**](https://openhatch.org/search/)
+
+    Open hatch has a search feature to narrow down projects or issues by language or project name. Something I really like, is the "[bytesize](https://openhatch.org/search/?q=&toughness=bitesize&language=C)" tag to sort the issues that are good for beginners.
+
+##### 2. Find an issue to work on
+
+Now that you have a project that you are willing to work on, you need to find something specific. On Github, each project has a little Issues area to track bugs and feature requests. Most open source projects use some sort of a bug tracker and keep a list of outstanding issues. Browse through that to see which one interests you. 
+
+##### 3. Grab the source code, and read through it
+
+Now it's time to grab the source code, so you can play around with it. With git, it's as simple as
+
+    $ git clone <repo-link>
+
+After you get the code, you'd want to build it and run all the tests to make sure nothing is broken. If all's good, move on to reading the code.
+
+Reading existing code is terribly boring and sometimes extremely painful. Every developer has a different style, which may or may not make sense to you. But hey, we are here to learn so we can put up with weird code. 
+
+Make sure the code makes sense to you and you know where exactly to start to fix the bug or to add the feature.
+
+##### 4. Hack. Test. Hack. Test. Test.
+
+Now start hacking away. Some projects have specific instructions for contributors, so be sure to follow them to make it easy on project maintainer(s) to merge your code in.
+
+Do add documentation corresponding to your code too. What you do is useless if no one knows how to use it.
+
+An important part of programming is testing. Never, never, ever, never, never push untested code to production code. Always write unit tests, make sure they pass, and make sure existing tests don't fail.
+
+##### 5. Send your changes
+
+All's good. You completed the issue. But that's just for yourself. Send the changes to the project originator so other people can benefit from your code too. Expect thorough code review and maybe criticism, but be strong and open to everything.
+
+Congratulations! You are an open source contributor now.
+
+#### Is it that easy?
+
+Yes. Becoming an open source contributor is really easy; people just prefer to be lazy.
+
+So there you have it folks, a primer on how to get started with open source contributions. No matter how much you read, you'll only do when you do. So stop reading, and start acting.
+
+#### Wait, wait.. How do I...?
+
+If you have any more questions, or suggestions, add them in the comments. I'll get back to you.

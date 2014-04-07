@@ -1,6 +1,7 @@
 name: Karan Goel
 description: (Almost) Everything I like and do!
 meta_description: "Karan Goel's blog on programming, and life."
+permalink: permalink
 
 markdown: redcarpet
 pygments: true

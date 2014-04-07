@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Karan Goel - Getting started with open source contributions</title>
+    <meta name="description" content="Karan Goel's blog on programming, and life." />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
+    <!-- This is for syntax highlight -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css">
+    <!-- Customisation  -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+
+</head>
+<body class="home-template">
+
+    
+    <main class="content" role="main">
+
+    <article class="post">
+        <header class="post-header">
+            <a id="blog-logo" href="/">
+                
+                    <span class="blog-title">Karan Goel</span>
+                 
+            </a>
+        </header>
+        
+        <span class="post-meta">
+        	<time datetime="2014-03-26">26 Mar 2014</time>
+        	
+       	</span>
+
+        <h1 class="post-title">Getting started with open source contributions</h1>
+
+        <section class="post-content">
+            <p>The world is moving to open source. From indie developers to multi-billion dollar companies, everyone is making a significant impact on the world by making their software open. If you want to contribute to Firefox, or the core of a new programming language, but are not sure where to start, you start here!</p>
+
+<p><img src="http://i.imgur.com/hZayDX8.png" alt=""></p>
+
+<h4>But Karan, what exactly is open source?</h4>
+
+<p>Since this is &quot;Open Source 101&quot;, the first question you asked is appropriate. There are many different and sometimes conflicting definitions of open source. Some say that it&#39;s <em>free</em> software - not exactly true. Some say it&#39;s anything that&#39;s hosted on <a href="http://github.com/karan">Github</a> - again, not accurate.</p>
+
+<p>The definition that I&#39;m convinced with, and use to describe the concept of open source is this:</p>
+
+<blockquote>
+<p>Software whose source code is made available for free under a license is called open source software.</p>
+</blockquote>
+
+<p>There are two keywords here:</p>
+
+<ol>
+<li><em>free</em> - It&#39;s not open source anymore if I have to pay for the source code.</li>
+<li><em>license</em> - Anything that doesn&#39;t explicitly mention usage restrictions should be considered copyrighted.</li>
+</ol>
+
+<p>What keeps open source software running is the concept of collaborative problem solving.</p>
+
+<blockquote>
+<p>Open source allows people to stop complaining about problems and actually solve them.</p>
+</blockquote>
+
+<h4>OK. But why would I contribute to open source?</h4>
+
+<p><img src="https://farm3.staticflickr.com/2892/8989294371_fe20afe3dc_z_d.jpg" alt=""></p>
+
+<p>&quot;Time is Money&quot;. Then why would you spend your time doing something valuable for free? </p>
+
+<ul>
+<li><p>For most developers, working on open source software is just a <strong>hobby</strong>. There is no reason, it&#39;s just their past time hobby that helps them improve their own skill-set and make them more marketable (make the resume stronger).</p></li>
+<li><p>Many beginners also start with open source to get <strong>practice</strong>. The amount you learn from contributing to open source, having your code reviewed by tens of people, is far, far more from just writing code for yourself.</p></li>
+<li><p>Your favorite software has a bug, or is missing a feature. Open source is the way to <strong>fix bugs or add new features</strong> by yourself, right when you notice them. No more waiting, no more bureaucracy.</p></li>
+<li><p>Take <a href="https://github.com/joyent">Joyent</a> for example. They made node.js open source. But, they are a company and they have to <strong>make money</strong>. So how do they do it? Well, they make the software available for free, but provide services on top of it - hosting solutions and consulting. Their ideal customers aren&#39;t you and me, but other companies and maybe startups.</p></li>
+<li><p>Some people also contribute to open source to build their <strong>online presence</strong>. After all, who doesn&#39;t like fake Internet points?</p></li>
+</ul>
+
+<h4>So how do I get started?</h4>
+
+<p>I&#39;m glad you asked. :-)</p>
+
+<h5>1. Find a project</h5>
+
+<p>The first step is to find a project that interests you. It can be something that you use (like VLC Player), or a library being used in something you use (like <a href="https://github.com/chjj/marked">marked</a> library used by Atom Editor).</p>
+
+<p>Use the following websites to find projects that might interest you:</p>
+
+<ul>
+<li><p><a href="https://github.com/trending"><strong>Github</strong></a></p>
+
+<p>The biggest name in open source world, Github is the de-facto place to begin your search. Now, if you visit the <a href="https://github.com/trending">Trending</a> page, seeing the size of the projects there might overwhelm you. Instead, use this <a href="https://github.com/search?o=desc&amp;q=stars%3A%3C10&amp;ref=searchresults&amp;s=updated&amp;type=Repositories">custom search query</a> to find active projects with a smaller amount of activity. </p></li>
+<li><p><a href="https://www.bountysource.com/"><strong>Bountysource</strong></a></p>
+
+<p>Bountysource is an interesting website - here, you can find projects and issues to work on, some of which also pay you. In some cases, spending a few hours fixing code might just earn you a couple hundred dollards. Pretty sweet.</p></li>
+<li><p><a href="https://openhatch.org/search/"><strong>Open Hatch</strong></a></p>
+
+<p>Open hatch has a search feature to narrow down projects or issues by language or project name. Something I really like, is the &quot;<a href="https://openhatch.org/search/?q=&amp;toughness=bitesize&amp;language=C">bytesize</a>&quot; tag to sort the issues that are good for beginners.</p></li>
+</ul>
+
+<h5>2. Find an issue to work on</h5>
+
+<p>Now that you have a project that you are willing to work on, you need to find something specific. On Github, each project has a little Issues area to track bugs and feature requests. Most open source projects use some sort of a bug tracker and keep a list of outstanding issues. Browse through that to see which one interests you. </p>
+
+<h5>3. Grab the source code, and read through it</h5>
+
+<p>Now it&#39;s time to grab the source code, so you can play around with it. With git, it&#39;s as simple as</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">$ git clone &lt;repo-link&gt;
+</code></pre></div>
+<p>After you get the code, you&#39;d want to build it and run all the tests to make sure nothing is broken. If all&#39;s good, move on to reading the code.</p>
+
+<p>Reading existing code is terribly boring and sometimes extremely painful. Every developer has a different style, which may or may not make sense to you. But hey, we are here to learn so we can put up with weird code. </p>
+
+<p>Make sure the code makes sense to you and you know where exactly to start to fix the bug or to add the feature.</p>
+
+<h5>4. Hack. Test. Hack. Test. Test.</h5>
+
+<p>Now start hacking away. Some projects have specific instructions for contributors, so be sure to follow them to make it easy on project maintainer(s) to merge your code in.</p>
+
+<p>Do add documentation corresponding to your code too. What you do is useless if no one knows how to use it.</p>
+
+<p>An important part of programming is testing. Never, never, ever, never, never push untested code to production code. Always write unit tests, make sure they pass, and make sure existing tests don&#39;t fail.</p>
+
+<h5>5. Send your changes</h5>
+
+<p>All&#39;s good. You completed the issue. But that&#39;s just for yourself. Send the changes to the project originator so other people can benefit from your code too. Expect thorough code review and maybe criticism, but be strong and open to everything.</p>
+
+<p>Congratulations! You are an open source contributor now.</p>
+
+<h4>Is it that easy?</h4>
+
+<p>Yes. Becoming an open source contributor is really easy; people just prefer to be lazy.</p>
+
+<p>So there you have it folks, a primer on how to get started with open source contributions. No matter how much you read, you&#39;ll only do when you do. So stop reading, and start acting.</p>
+
+<h4>Wait, wait.. How do I...?</h4>
+
+<p>If you have any more questions, or suggestions, add them in the comments. I&#39;ll get back to you.</p>
+
+        </section>
+
+        
+
+        <footer class="post-footer">
+        	<!-- If we want to display author's name and bio -->
+            
+                <section class="author">
+                	<header> <a href="/"> <img class="profile" src="http://www.goel.im/images/me.jpg" alt="Author's profile picture"></a></header>
+                	<article>
+                		<!-- Author Name -->
+                    	<h4> Karan Goel </h4>
+                    	<!-- Author Bio -->
+                    	<p><a href="http://www.goel.im">Karan Goel</a> is a <a href="http://www.cs.washington.edu">Computer Science</a> undergraduate at the <a href="http://www.washington.edu">University of Washington</a>. He &lt;3's <a href="http://github.com/karan"><b>code</b></a>.<br />
+                        <a href="http://twitter.com/TheKaranGoel">@TheKaranGoel</a></p>
+                    </article>
+                </section>                
+            
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=&quot;Getting started with open source contributions&quot;%20http://karan.github.io/open-source-101%20via%20&#64;TheKaranGoel" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://karan.github.io/open-source-101"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://karan.github.io/open-source-101"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+            <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'karan-github'; // required: replace example with your forum shortname
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+        	
+        </footer>
+
+    </article>
+
+</main>
+
+
+    <footer class="site-footer">
+        <a class="subscribe icon-feed" href="/rss.xml"><span class="tooltip">Subscribe!</span></a>
+        <div class="inner">
+             <section class="copyright">All content copyright <a href="/">Karan Goel</a> &copy;  &bull; All rights reserved.</section>
+             <section class="poweredby">Made with Jekyll using <a href="http://github.com/rosario/kasper">Kasper theme</a></section>
+        </div>
+    </footer>
+
+    
+    <script type="text/javascript" src="/assets/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+
+    <!-- Google Analytics Tracking code -->
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-9509587-21', 'karan.github.io');
+      ga('send', 'pageview');
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-9509587-24', 'goel.im');
+      ga('send', 'pageview');
+    </script>
+</body>
+</html>
