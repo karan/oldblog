@@ -58,7 +58,7 @@ Use the following websites to find projects that might interest you:
 
 - [**Bountysource**](https://www.bountysource.com/)
 
-    Bountysource is an interesting website - here, you can find projects and issues to work on, some of which also pay you. In some cases, spending a few hours fixing code might just earn you a couple hundred dollards. Pretty sweet.
+    Bountysource is an interesting website - here, you can find projects and issues to work on, some of which also pay you. In some cases, spending a few hours fixing code might just earn you a couple hundred dollars. Pretty sweet.
 
 - [**Open Hatch**](https://openhatch.org/search/)
 
