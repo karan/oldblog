@@ -1,0 +1,21 @@
+#social {
+    margin-bottom: 10px;
+}
+
+#social a {
+    margin-right: 10px;
+}
+
+.sidebar {
+    text-align: center;
+}
+
+@media (max-width: 48rem) {
+    .me {
+        display: none;
+    }
+}
+
+.sep {
+    margin: 0 5px;
+}
