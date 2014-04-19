@@ -2,7 +2,7 @@
 layout: post
 permalink: open-source-101
 title:  "Getting started with open source contributions"
-date:   2014-03-26 17:00:00
+date:   2014-04-06 17:00:00
 ---
 
 The world is moving to open source. From indie developers to multi-billion dollar companies, everyone is making a significant impact on the world by making their software open. If you want to contribute to Firefox, or the core of a new programming language, but are not sure where to start, you start here!

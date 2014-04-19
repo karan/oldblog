@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Karan Goel</title>
+ <link href="http://karan.github.io//atom.xml" rel="self"/>
+ <link href="http://karan.github.io//"/>
+ <updated>2014-04-19T13:43:43-07:00</updated>
+ <id>http://karan.github.io/</id>
+ <author>
+   <name>Karan Goel</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Getting started with open source contributions</title>
+   <link href="http://karan.github.io//open-source-101"/>
+   <updated>2014-04-06T17:00:00Z</updated>
+   <id>http://karan.github.io//github</id>
+   <content type="html">&lt;p&gt;The world is moving to open source. From indie developers to multi-billion dollar companies, everyone is making a significant impact on the world by making their software open. If you want to contribute to Firefox, or the core of a new programming language, but are not sure where to start, you start here!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/hZayDX8.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h4&gt;But Karan, what exactly is open source?&lt;/h4&gt;
+
+&lt;p&gt;Since this is &amp;quot;Open Source 101&amp;quot;, the first question you asked is appropriate. There are many different and sometimes conflicting definitions of open source. Some say that it&amp;#39;s &lt;em&gt;free&lt;/em&gt; software - not exactly true. Some say it&amp;#39;s anything that&amp;#39;s hosted on &lt;a href=&quot;http://github.com/karan&quot;&gt;Github&lt;/a&gt; - again, not accurate.&lt;/p&gt;
+
+&lt;p&gt;The definition that I&amp;#39;m convinced with, and use to describe the concept of open source is this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Software whose source code is made available for free under a license is called open source software.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are two keywords here:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;free&lt;/em&gt; - It&amp;#39;s not open source anymore if I have to pay for the source code.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;license&lt;/em&gt; - Anything that doesn&amp;#39;t explicitly mention usage restrictions should be considered copyrighted.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;What keeps open source software running is the concept of collaborative problem solving.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Open source allows people to stop complaining about problems and actually solve them.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4&gt;OK. But why would I contribute to open source?&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm3.staticflickr.com/2892/8989294371_fe20afe3dc_z_d.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;quot;Time is Money&amp;quot;. Then why would you spend your time doing something valuable for free? &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;For most developers, working on open source software is just a &lt;strong&gt;hobby&lt;/strong&gt;. There is no reason, it&amp;#39;s just their past time hobby that helps them improve their own skill-set and make them more marketable (make the resume stronger).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Many beginners also start with open source to get &lt;strong&gt;practice&lt;/strong&gt;. The amount you learn from contributing to open source, having your code reviewed by tens of people, is far, far more from just writing code for yourself.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Your favorite software has a bug, or is missing a feature. Open source is the way to &lt;strong&gt;fix bugs or add new features&lt;/strong&gt; by yourself, right when you notice them. No more waiting, no more bureaucracy.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Take &lt;a href=&quot;https://github.com/joyent&quot;&gt;Joyent&lt;/a&gt; for example. They made node.js open source. But, they are a company and they have to &lt;strong&gt;make money&lt;/strong&gt;. So how do they do it? Well, they make the software available for free, but provide services on top of it - hosting solutions and consulting. Their ideal customers aren&amp;#39;t you and me, but other companies and maybe startups.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Some people also contribute to open source to build their &lt;strong&gt;online presence&lt;/strong&gt;. After all, who doesn&amp;#39;t like fake Internet points?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;So how do I get started?&lt;/h4&gt;
+
+&lt;p&gt;I&amp;#39;m glad you asked. :-)&lt;/p&gt;
+
+&lt;h5&gt;1. Find a project&lt;/h5&gt;
+
+&lt;p&gt;The first step is to find a project that interests you. It can be something that you use (like VLC Player), or a library being used in something you use (like &lt;a href=&quot;https://github.com/chjj/marked&quot;&gt;marked&lt;/a&gt; library used by Atom Editor).&lt;/p&gt;
+
+&lt;p&gt;Use the following websites to find projects that might interest you:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/trending&quot;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The biggest name in open source world, Github is the de-facto place to begin your search. Now, if you visit the &lt;a href=&quot;https://github.com/trending&quot;&gt;Trending&lt;/a&gt; page, seeing the size of the projects there might overwhelm you. Instead, use this &lt;a href=&quot;https://github.com/search?o=desc&amp;amp;q=stars%3A%3C10&amp;amp;ref=searchresults&amp;amp;s=updated&amp;amp;type=Repositories&quot;&gt;custom search query&lt;/a&gt; to find active projects with a smaller amount of activity. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.bountysource.com/&quot;&gt;&lt;strong&gt;Bountysource&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Bountysource is an interesting website - here, you can find projects and issues to work on, some of which also pay you. In some cases, spending a few hours fixing code might just earn you a couple hundred dollars. Pretty sweet.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://openhatch.org/search/&quot;&gt;&lt;strong&gt;Open Hatch&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Open hatch has a search feature to narrow down projects or issues by language or project name. Something I really like, is the &amp;quot;&lt;a href=&quot;https://openhatch.org/search/?q=&amp;amp;toughness=bitesize&amp;amp;language=C&quot;&gt;bytesize&lt;/a&gt;&amp;quot; tag to sort the issues that are good for beginners.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5&gt;2. Find an issue to work on&lt;/h5&gt;
+
+&lt;p&gt;Now that you have a project that you are willing to work on, you need to find something specific. On Github, each project has a little Issues area to track bugs and feature requests. Most open source projects use some sort of a bug tracker and keep a list of outstanding issues. Browse through that to see which one interests you. &lt;/p&gt;
+
+&lt;h5&gt;3. Grab the source code, and read through it&lt;/h5&gt;
+
+&lt;p&gt;Now it&amp;#39;s time to grab the source code, so you can play around with it. With git, it&amp;#39;s as simple as&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;$ git clone &amp;lt;repo-link&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;After you get the code, you&amp;#39;d want to build it and run all the tests to make sure nothing is broken. If all&amp;#39;s good, move on to reading the code.&lt;/p&gt;
+
+&lt;p&gt;Reading existing code is terribly boring and sometimes extremely painful. Every developer has a different style, which may or may not make sense to you. But hey, we are here to learn so we can put up with weird code. &lt;/p&gt;
+
+&lt;p&gt;Make sure the code makes sense to you and you know where exactly to start to fix the bug or to add the feature.&lt;/p&gt;
+
+&lt;h5&gt;4. Hack. Test. Hack. Test. Test.&lt;/h5&gt;
+
+&lt;p&gt;Now start hacking away. Some projects have specific instructions for contributors, so be sure to follow them to make it easy on project maintainer(s) to merge your code in.&lt;/p&gt;
+
+&lt;p&gt;Do add documentation corresponding to your code too. What you do is useless if no one knows how to use it.&lt;/p&gt;
+
+&lt;p&gt;An important part of programming is testing. Never, never, ever, never, never push untested code to production code. Always write unit tests, make sure they pass, and make sure existing tests don&amp;#39;t fail.&lt;/p&gt;
+
+&lt;h5&gt;5. Send your changes&lt;/h5&gt;
+
+&lt;p&gt;All&amp;#39;s good. You completed the issue. But that&amp;#39;s just for yourself. Send the changes to the project originator so other people can benefit from your code too. Expect thorough code review and maybe criticism, but be strong and open to everything.&lt;/p&gt;
+
+&lt;p&gt;Congratulations! You are an open source contributor now.&lt;/p&gt;
+
+&lt;h4&gt;Is it that easy?&lt;/h4&gt;
+
+&lt;p&gt;Yes. Becoming an open source contributor is really easy; people just prefer to be lazy.&lt;/p&gt;
+
+&lt;p&gt;So there you have it folks, a primer on how to get started with open source contributions. No matter how much you read, you&amp;#39;ll only do when you do. So stop reading, and start acting.&lt;/p&gt;
+
+&lt;h4&gt;Wait, wait.. How do I...?&lt;/h4&gt;
+
+&lt;p&gt;If you have any more questions, or suggestions, add them in the comments. I&amp;#39;ll get back to you.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>How do spammers harvest your e-mail address?</title>
+   <link href="http://karan.github.io//2014/03/26/email-spam.html‎"/>
+   <updated>2014-03-26T17:00:00Z</updated>
+   <id>http://karan.github.io//2014/03/26/email-spam</id>
+   <content type="html">&lt;p&gt;This is an update on the research I did under the guidance of &lt;a href=&quot;http://jeffhuang.com/&quot;&gt;Jeff Huang&lt;/a&gt; (now assistant professor at Brown University) titled &lt;a href=&quot;https://experiment.com/projects/how-do-spammers-harvest-your-e-mail-address&quot;&gt;How do spammers harvest your e-mail address?&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;As an experienced ex-blogger and an avid internet marketer, I can firmly say that every Internet user with an email address has received spam email more than just once. Spam is not just unsolicited, unapproved contact by a stranger; sometimes spam can lead to loss of money and even theft of identity. As spammers get more sophisticated, it becomes difficult for anyone to differentiate spam emails from genuine emails. Companies all across the world, irrespective of their market, location or size, incur loss of resources, human power and money due to spam. Tech companies, like Google and Yahoo, use about 30 billion watts of electricity (1) - that&amp;#39;s enough electricity to power 3 million houses for a year. It’s amazing just to think about how much energy and money these companies would save if there was no spam. &lt;/p&gt;
+
+&lt;p&gt;But it&amp;#39;s not just the companies that suffer losses from email spam. People like you and me are spending a lot of time reviewing spam, and even with strong spam filters they still have to check their spam folder for misclassified email. Everyone has had the problem where an important email fell into the spam folder. &lt;/p&gt;
+
+&lt;iframe title=&quot;Why this research?&quot; width=&quot;480&quot; height=&quot;390&quot; src=&quot;https://player.vimeo.com/video/40080540&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Back in August 2012, I stumbled upon this amazing research opportunity presented by the Information School at the UW – to be a part of the research to find out how spammers harvest peoples&amp;#39; email addresses, and how it can be prevented. I instantly related to this research since I have been at the receiving (and sadly, sending) side of spam emails, and I understand what a spam email really costs – nothing to the sender, a lot to the receiver.&lt;/p&gt;
+
+&lt;p&gt;I was super excited to get started with this research project. We were super lucky to be funded early on &lt;a href=&quot;https://experiment.com/home&quot;&gt;Experiment.com&lt;/a&gt; and I worked on this for about a year. We were looking at the root of the problem - how spammers get your email addresses in the first place. To make a medical analogy, there is treating the illness after it&amp;#39;s already happened, and there is learning more about the root cause of the illness so it can be prevented completely.&lt;/p&gt;
+
+&lt;p&gt;Now, there have been many such studies in the past (see &lt;em&gt;Related work&lt;/em&gt; below), so how is this study different from the others? For one, this is new, raw data we collected. The Internet space moves so fast, that to be ahead of spammers and scammers, you have to find out how they operate - and how they operate changes all the time. Secondly, most other (newer) studies are not as comprehensive as this one is. They usually just cover social network spam, or sites selling email lists. We tried to cover as much ground as possible, and collect as much data as possible to back us up.&lt;/p&gt;
+
+&lt;p&gt;So, here are the results we got after one year of waiting and after posting email addresses to numerous different types of websites and online services.&lt;/p&gt;
+
+&lt;h4&gt;First, a cloud.&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/bMsibZ2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a simple cloud of the words spammer use the most in their email subject lines. The most used words, as seen, are &amp;quot;free&amp;quot;, &amp;quot;credit&amp;quot;, &amp;quot;score&amp;quot;, &amp;quot;home&amp;quot; etc. I expected &amp;quot;viagra&amp;quot; to be one of the top words, but I guess they are not using it in subject lines to bypass spam filters.&lt;/p&gt;
+
+&lt;h3&gt;And now, the meat of the study. Or should I say the spam. ;-)&lt;/h3&gt;
+
+&lt;h4&gt;First, where is our data coming from?&lt;/h4&gt;
+
+&lt;p&gt;Emails were posted to a variety of different platforms in different quantities. Each email was only posted once on the web to make sure we get very pristine data.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/JArs4V7.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;A human-readable list of the platforms with the number of emails posted there:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;App store reviews (Apple, Chrome, Firefox etc): 4&lt;/li&gt;
+&lt;li&gt;Blog comment: 119&lt;/li&gt;
+&lt;li&gt;Blogging site (wordpress, blogger etc): 142&lt;/li&gt;
+&lt;li&gt;Craigslist discussion board: 6&lt;/li&gt;
+&lt;li&gt;File hostedon Dropbox: 12&lt;/li&gt;
+&lt;li&gt;Ecommerce sites like Amazon: 5&lt;/li&gt;
+&lt;li&gt;Facebook profile, wall and pages: 5&lt;/li&gt;
+&lt;li&gt;File on server: 21&lt;/li&gt;
+&lt;li&gt;Forum profiles: 234&lt;/li&gt;
+&lt;li&gt;Github: 1&lt;/li&gt;
+&lt;li&gt;Google doc: 7&lt;/li&gt;
+&lt;li&gt;Google drawing: 2&lt;/li&gt;
+&lt;li&gt;Greeting card generator sites: 18&lt;/li&gt;
+&lt;li&gt;Guestbook: 12&lt;/li&gt;
+&lt;li&gt;Loyalty Programs: 10&lt;/li&gt;
+&lt;li&gt;Mailing list: 85&lt;/li&gt;
+&lt;li&gt;&amp;lt;meta&amp;gt; tags of websites: 4&lt;/li&gt;
+&lt;li&gt;Other social networks: 5&lt;/li&gt;
+&lt;li&gt;PDF on server: 8&lt;/li&gt;
+&lt;li&gt;Paste sites like Pastebin: 21&lt;/li&gt;
+&lt;li&gt;Reddit: 9&lt;/li&gt;
+&lt;li&gt;Scribd: 10&lt;/li&gt;
+&lt;li&gt;Slideshare: 5&lt;/li&gt;
+&lt;li&gt;Spammy mailing lists: 51&lt;/li&gt;
+&lt;li&gt;Twitter: 2&lt;/li&gt;
+&lt;li&gt;UW Directory: 1&lt;/li&gt;
+&lt;li&gt;Usenet: 98&lt;/li&gt;
+&lt;li&gt;Video site (YouTube video description/title): 53&lt;/li&gt;
+&lt;li&gt;Whois: 5&lt;/li&gt;
+&lt;li&gt;Wiki sites: 84&lt;/li&gt;
+&lt;li&gt;Yahoo Answers: 25&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Since we wanted to study how to prevent spam, I also tested a lot of different email obfuscation techniques, and the graph below shows the distribution of them.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/BUmIAtK.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(&lt;a href=&quot;https://experiment.com/u/hr9x0w&quot;&gt;See what they mean&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And a human-readable list of obfuscations with the number of emails that were used for each one:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt; splitting: 6&lt;/li&gt;
+&lt;li&gt;ASCII: 17&lt;/li&gt;
+&lt;li&gt;Comment: 3&lt;/li&gt;
+&lt;li&gt;Different Hyperlink: 114&lt;/li&gt;
+&lt;li&gt;HTML Unicode: 45&lt;/li&gt;
+&lt;li&gt;Image: 21&lt;/li&gt;
+&lt;li&gt;Invalid: 260&lt;/li&gt;
+&lt;li&gt;Invisible: 59&lt;/li&gt;
+&lt;li&gt;JavaScript: 18&lt;/li&gt;
+&lt;li&gt;None: 484&lt;/li&gt;
+&lt;li&gt;ROT-13: 2&lt;/li&gt;
+&lt;li&gt;email (at) irchiver (dot) com: 1&lt;/li&gt;
+&lt;li&gt;email @ irchiver . com: 23&lt;/li&gt;
+&lt;li&gt;email @ irchiver.com: 18&lt;/li&gt;
+&lt;li&gt;email AT irchiver DOT com: 5&lt;/li&gt;
+&lt;li&gt;email AT irchiver.com: 1&lt;/li&gt;
+&lt;li&gt;email [@] irchiver.com: 1&lt;/li&gt;
+&lt;li&gt;email [at] irchiver [dot] com: 15&lt;/li&gt;
+&lt;li&gt;email [at] irchiver.com: 8&lt;/li&gt;
+&lt;li&gt;email at irchiver dot com: 2&lt;/li&gt;
+&lt;li&gt;email-@-irchiver-.-com: 13&lt;/li&gt;
+&lt;li&gt;email-@-irchiver.com: 2&lt;/li&gt;
+&lt;li&gt;email-AT-irchiver-.-com: 1&lt;/li&gt;
+&lt;li&gt;email-AT-irchiver.com: 11&lt;/li&gt;
+&lt;li&gt;email-at-irchiver-dot-com: 4&lt;/li&gt;
+&lt;li&gt;email-at-irchiver.com: 2&lt;/li&gt;
+&lt;li&gt;email[@]irchiver.com: 1&lt;/li&gt;
+&lt;li&gt;email[@]irchiver[.]com: 12&lt;/li&gt;
+&lt;li&gt;email[at]irchiver.com: 2&lt;/li&gt;
+&lt;li&gt;email[at]irchiver[.]com: 2&lt;/li&gt;
+&lt;li&gt;email[at]irchiver[dot]com: 17&lt;/li&gt;
+&lt;li&gt;email[at]irciver.com: 2&lt;/li&gt;
+&lt;li&gt;iFrame: 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also tried some different ways of spreading email, like making email anchored vs plain text or clickable vs bare text.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/cw4CaoM.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/g35oRQy.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;So what&amp;#39;s an anchored email link? &lt;a href=&quot;karan@goel.im&quot;&gt;This&lt;/a&gt;. And what&amp;#39;s not? This -&amp;gt; &lt;a href=&quot;karan@goel.im&quot;&gt;karan@goel.im&lt;/a&gt;. In some cases, for example when emails were embedded in images, it&amp;#39;s not valid. That&amp;#39;s &amp;quot;invalid&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;The way we classified emails as &amp;quot;clickable&amp;quot; or not follows almost the same rules - &lt;a href=&quot;karan@goel.im&quot;&gt;this&lt;/a&gt; this clickable but karan@goel.im is not.&lt;/p&gt;
+
+&lt;h4&gt;How how much spam did we get, and when?&lt;/h4&gt;
+
+&lt;p&gt;At the time of producing these charts, we got about 18000 spam emails across all 1000-ish emails posted.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i.imgur.com/eReQyI0.png?1&quot;&gt;&lt;img src=&quot;http://i.imgur.com/eReQyI0.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As seen in the graph, the amount of emails per week peaked after 20 weeks. This 20-week period could be the time interval it took search engines to crawl, index and rank the pages where these emails were posted.&lt;/p&gt;
+
+&lt;p&gt;Also see the &lt;a href=&quot;http://imgur.com/a/VMN7F#0&quot;&gt;gallery of charts for emails per week by different platforms&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i.imgur.com/nIm5Tp5.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/nIm5Tp5.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As seen in the timeline above, there&amp;#39;s an influx of weekly spam in late October (that&amp;#39;s 2 months after the study began), and during the holiday season. These were the times when email posting activity was at its peak, so seeing more spam is expected.&lt;/p&gt;
+
+&lt;p&gt;The weekly activity of spammers seems pretty consistent and not surprising. Early weekdays are busy, but activity settles down a bit on the weekends.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i.imgur.com/cHwTD90.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/cHwTD90.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Not many people check their emails on weekdays, so no point in wasting bandwidth, right?&lt;/p&gt;
+
+&lt;h4&gt;Platforms&lt;/h4&gt;
+
+&lt;p&gt;As seen in the box plot below, almost all &lt;a href=&quot;https://experiment.com/u/ocVekA&quot;&gt;platforms&lt;/a&gt; I posted to sent spam - whether they were publicly indexable by search engines or not, every website has the potentiable to be scraped by spammers.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i.imgur.com/I2U8KSj.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/I2U8KSj.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Notably, spammy mailing lists send the most spam. These mailing lists include sites that promise you free credit scores, or insurance quotes, or free ipads etc. These sites stink of spam, but people still continue to give them their email addresses.&lt;/p&gt;
+
+&lt;p&gt;Surprisingly, emails in whois details of a domain also sent a ton of spam, even though most whois services hide emails as an image. Why is that? Because those sites that do not obfuscate email addresses are enough for spammers to harvest emails from.&lt;/p&gt;
+
+&lt;h5&gt;Some platforms that sent no spam at all:&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;App Store (Email posted in reviews)&lt;/li&gt;
+&lt;li&gt;Ecommerce (Used to sign up on sites like Amazon)&lt;/li&gt;
+&lt;li&gt;Facebook (In page description and profile - all public)&lt;/li&gt;
+&lt;li&gt;File on server (A txt file hosted on my own server)&lt;/li&gt;
+&lt;li&gt;Google doc&lt;/li&gt;
+&lt;li&gt;Google drawing&lt;/li&gt;
+&lt;li&gt;Twitter (Email in a tweet)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Obfuscation&lt;/h4&gt;
+
+&lt;p&gt;(I can finally spell this word!)&lt;/p&gt;
+
+&lt;p&gt;I used &lt;a href=&quot;https://experiment.com/u/hr9x0w&quot;&gt;a ton of obfuscation techniques&lt;/a&gt;)) to test as many of them as possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i.imgur.com/2HYF2XS.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/2HYF2XS.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Simple name mangling (&lt;em&gt;email [at] irchiver.com&lt;/em&gt; etc) works no more, sadly. Some more modern ways do work - ROT13, ASCII characters etc seem to work the best. To use them, though, you have to use scripts or software which might not be always available.&lt;/p&gt;
+
+&lt;h5&gt;Obfuscation strategies worked the best and sent no spam at all:&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt; splitting (In HTML, parts of email in different &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt; tags)&lt;/li&gt;
+&lt;li&gt;ASCII (Covert email characters to ASCII)&lt;/li&gt;
+&lt;li&gt;HTML Unicode (Convert email characters to unicode)&lt;/li&gt;
+&lt;li&gt;Image (Post email as an image)&lt;/li&gt;
+&lt;li&gt;ROT-13 (A character shift algorithm)&lt;/li&gt;
+&lt;li&gt;email (at) irchiver (dot) com&lt;/li&gt;
+&lt;li&gt;email @ irchiver . com&lt;/li&gt;
+&lt;li&gt;email [at] irchiver [dot] com&lt;/li&gt;
+&lt;li&gt;email-@-irchiver-.-com&lt;/li&gt;
+&lt;li&gt;email-AT-irchiver.com&lt;/li&gt;
+&lt;li&gt;iFrame (Post email on one page, and embed in iFrame in a different page)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;So how should I share my emails online?&lt;/h4&gt;
+
+&lt;p&gt;I&amp;#39;m glad you asked. Our study indicates that spammers are getting more and more sophisticated, and getting access to even private pages and databases to harvest emails from. Their parsers work better than ever, and simple email mangling is just not as efficient now.&lt;/p&gt;
+
+&lt;p&gt;So is there no way to beat spammers? Of course there is.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If you&amp;#39;re posting an email address on a website whose source code you can control, use a &lt;a href=&quot;http://en.wikipedia.org/wiki/ROT13&quot;&gt;cipher&lt;/a&gt; or &lt;a href=&quot;http://www.asciitohex.com/&quot;&gt;ASCII&lt;/a&gt; or &lt;a href=&quot;http://www.asciitohex.com/&quot;&gt;Unicode&lt;/a&gt; encoding. This makes your email look like normal text, but the source is nothing like normal text.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If it looks too good to be true, avoid it. Trust me. No one will give you a free iPad in exchange for your email address. Huge databases of emails are built and sold this way, so once you are in the loop, it&amp;#39;s almost impossible to prevent spam.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Make your email unscannable. Canonical email scraper simple scrape the source code of a page and look for email addresses. Use a (highly) mangled email address (like karan-AT-goel-DOT-im). This affects end-user experience since they cannot just copy-paste your email address now slighlty but saves your email from spammers.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Keep your eyes open when filling forms. Many sites I posted to had small checkboxes at the bottom of the form, which were checked by default, but give permission to websites to send you marketing emails or in some cases send your email to advertisers. Watch out for these!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Be careful in forums, chats and discussion boards. These are the biggest source of emails for spammers. If you must give out email address, use disposable email addresses.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you own domain name(s), opt for WhoisGuard. WhoisGuard avoids spam issues by placing registrar&amp;#39;s information in whois and provides an option to redirect email and regular mail to your real address.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;​At the end of last summer, when I was crunching the data set for interesting finding, I discovered that for some reason, some of the data was tainted by Gmail. Jeff had set a filter at the beginning of the study to redirect all email (including and especially spam) to inbox directly. However, Gmail randomly decided to not do that, and so we lost some part of the data (spam is deleted by Gmail every month). We do not know how much data we lost (I estimate about 5-10%), but it is enough to prevent us from publishing a paper. :(&lt;/p&gt;
+
+&lt;p&gt;I have made all scripts used to analyse the data available on &lt;a href=&quot;https://github.com/karan/SpamHarvestUW&quot;&gt;Github&lt;/a&gt;. This code was written when I was just starting to learn Python, so please excuse the code quality.&lt;/p&gt;
+
+&lt;p&gt;What do you think of our research? Reach out to me via Twitter (&lt;a href=&quot;http://twitter.com/TheKaranGoel&quot;&gt;@TheKaranGoel&lt;/a&gt;) or via email: karan@goel.im&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;References:&lt;/h3&gt;
+
+&lt;p&gt;(1) James Glanze, &amp;quot;Power, Pollution and the Internet&amp;quot; (NYTimes), 22 September 2012 &lt;a href=&quot;http://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html&quot;&gt;http://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Related work&lt;/h3&gt;
+
+&lt;p&gt;Kyumin Lee, James Caverlee, Steve Webb, &amp;quot;The Social Honeypot Project: Protecting Online Communities from Spammers&amp;quot;, 2010&lt;/p&gt;
+
+&lt;p&gt;Craig A. Shue, Minaxi Gupta, Chin Hua Kong, John T. Lubia, Asim S. Yuksel, &amp;quot;Spamology: A Study of Spam Origins&amp;quot;, 2009&lt;/p&gt;
+
+&lt;p&gt;Center For Democracy &amp;amp; Technology, &amp;quot;Why Am I Getting All This Spam?&amp;quot;, 2003&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>My year in open source and side projects!</title>
+   <link href="http://karan.github.io//2013/12/31/my-year-in-open-source.html"/>
+   <updated>2013-12-31T08:42:00Z</updated>
+   <id>http://karan.github.io//2013/12/31/my-year-in-open-source</id>
+   <content type="html">&lt;p&gt;Ok wow. What an year it has been. A lot happened with me in my personal life - both good and bad - but I&amp;#39;ll try to refrain from speaking (or writing, technically) about them here.&lt;/p&gt;
+
+&lt;p&gt;This post is my reflection of my work in open source and side projects in 2013.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://karan.github.io//assets/images/year-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I joined &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt; about 50 weeks ago, after reading a lot about it over on reddit. But the whole concept of version control made no sense to me at all. Like, what is &amp;quot;&lt;em&gt;distributed&lt;/em&gt; version control&amp;quot;, &amp;quot;who would use it&amp;quot;, &amp;quot;open source, ok cool&amp;quot;. So, naturally, I didn&amp;#39;t use it much.&lt;/p&gt;
+
+&lt;p&gt;Now here&amp;#39;s the weird thing - a few days ago, I completed a &lt;a href=&quot;https://github.com/karan&quot;&gt;180-days streak&lt;/a&gt; over on Github. Why? I have no idea. How? I kept on starting new projects, always working on stuff. Was it a good thing? Some will say no, I could have learned, say guitar, in that time. But if life is all about learning new things, and doing things you love, then I don&amp;#39;t regret it a bit.&lt;/p&gt;
+
+&lt;p&gt;Now, by this point, you probably know that my writing sucks. I find it easier to create a timeline to get my message across. My timeline will be guided by the projects I worked on.&lt;/p&gt;
+
+&lt;h3&gt;A (solicited) list of my projects from 2013 in chronological order&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/karan/YALT&quot;&gt;Yet Another Learning Tool&lt;/a&gt; - helps you learn stuff&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/karan/MoodicPlayer&quot;&gt;MoodicPlayer&lt;/a&gt; - the weirdly-named mood-based playlist maker&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/karan/Projects&quot;&gt;Projects&lt;/a&gt; - literally, a &lt;em&gt;project&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/karan/RedditAgain&quot;&gt;RedditAgain&lt;/a&gt; - because no one will ever have just 1 reddit account&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/karan/TPB&quot;&gt;TPB&lt;/a&gt; - why is &lt;em&gt;this&lt;/em&gt; data no open enough?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/karan/HackerNewsAPI&quot;&gt;HackerNews API&lt;/a&gt; - a Python-API&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/karan/HNify&quot;&gt;HNify&lt;/a&gt; - a RESTful API&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/karan/YALT&quot;&gt;Yet Another Learning Tool&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Yet Another Learning Tool (YALT) is a lightweight and minimal utility to make it easier for you to remember things. It is a flash-card like system, where you&amp;#39;lll be presented with random questions from selected database. With YALT, you have to spend less time learning more.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://karan.github.io//assets/images/year-2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;YALT, as I call it, was the first serious project I ever worked on. It was my first advent in the world of open source. It was the very first piece of code I put on Github. It was not a unique idea, and definitely not an open-source-worthy implementation. At the time, I was learning Java, and just wanted to make something cool with a minimal GUI. Because, buttons.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/karan/MoodicPlayer&quot;&gt;MoodicPlayer&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;MoodicPlayer, using last.fm API, builds a playlist for users based on their mood.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://karan.github.io//assets/images/year-3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The idea for this app(let) excites many people. As simple as the GUI looks, building the whole app, and getting things to work was painful. I locked myself in a room for 3 days just get the last.fm API auth (which was an alien concept to me) to work.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/karan/Projects&quot;&gt;Projects&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Projects&lt;/em&gt; is a list of practical projects that anyone can solve in any programming language. These projects are divided in multiple categories.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://karan.github.io//assets/images/year-4.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;This is when things started to get interesting for me. I wanted to learn Python. I did tons of tutorials online, but everyone just taught the basics. I had no idea what I was doing. I realized that I&amp;#39;m not alone in this. There&amp;#39;s other people who miss a better way to learn a language. Hence, this list. I announced it to &lt;a href=&quot;http://www.reddit.com/r/learnpython/comments/1huuqk/im_doing_100_projects_in_python_to_learn_the/&quot;&gt;reddit&lt;/a&gt; after which it just took off. As of today, the repo has 4000+ stars, and over &lt;a href=&quot;https://github.com/karan/Projects-Solutions/graphs/contributors&quot;&gt;40 people&lt;/a&gt; have contributed their own solutions.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/karan/RedditAgain&quot;&gt;RedditAgain&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This little script helps migrate an old Reddit account to a new one.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://karan.github.io//assets/images/year-5.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Because I was learning Python at the time, and we all know how well the language works with the reddit API, I wanted to make something practically usable. Seeing how much throwaway accounts are used there, this was a great thing to make.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/karan/TPB&quot;&gt;TPB&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;TPB is an unofficial Python API for ThePirateBay. (don&amp;#39;t look at me like that.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://karan.github.io//assets/images/year-6.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;When I started this project, I was fascinated by the power of having open-everything. What access to data can do. One of the biggest (controversial) websites on the Internet, that runs exactly to take that motto forward, that no good API for developers. I said to myself, well, if no one wants to do it, I&amp;#39;ll do it. The &lt;a href=&quot;http://www.reddit.com/r/programming/comments/1lkg1y/thepiratebay_api_for_python/&quot;&gt;response&lt;/a&gt; &lt;a href=&quot;http://www.reddit.com/r/opensource/comments/1lkfyl/thepiratebay_api_for_python/&quot;&gt;on reddit&lt;/a&gt; is a clear indicator of what people want to do, but can&amp;#39;t because of restrictions on data.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/karan/HackerNewsAPI&quot;&gt;HackerNews API&lt;/a&gt; and &lt;a href=&quot;https://github.com/karan/HNify&quot;&gt;HNify&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;HackerNews API is an unofficial Python API for HackerNews, and HNify is it&amp;#39;s RESTful port.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://karan.github.io//assets/images/year-7.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I found it a little ironic that one of the top hacker sites had no open, working API. I took as a learning opportunity to change that. These projects were two of my biggest projects, with a diversity of new concepts and technologies that I had to learn. And &lt;a href=&quot;https://news.ycombinator.com/item?id=6374031&quot;&gt;people&lt;/a&gt; &lt;a href=&quot;http://www.reddit.com/r/flask/comments/1ph746/hnify_api_for_hacker_news_my_first_api_in_flask/&quot;&gt;loved it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;A secret project&lt;/h3&gt;
+
+&lt;p&gt;Just last week, a friend and I started working on a new web app - a new way to discover and listen to music. It&amp;#39;s still under development so I can&amp;#39;t talk much about it. We&amp;#39;re building it on the &lt;a href=&quot;http://mean.io/&quot;&gt;MEAN&lt;/a&gt; stack, which I knew nothing about until a few days ago. I spent 3 days, in my room, writing code, reading up online about JS, node, express and pushed &lt;a href=&quot;https://twitter.com/TheKaranGoel/status/417558558645813248&quot;&gt;tons of code&lt;/a&gt;. Even if this app isn&amp;#39;t complete on time, I&amp;#39;ll still be proud of learning a lagnuage in only a few days, enough to be able to make something usage (or maybe a prototype).&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Major takeaways&lt;/h3&gt;
+
+&lt;p&gt;All said and done, there&amp;#39;s a few things that I particularly want to put out there. These are some of my major takeaways from this year:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Start projects&lt;/strong&gt; - There&amp;#39;s no bigger way of getting yourself motivated. Just get start.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Keep going until you hit a dead end&lt;/strong&gt; - Try everything you can until you hit a dead end, at which point...&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Ask for help&lt;/strong&gt; - Trust me, &lt;a href=&quot;http://stackoverflow.com&quot;&gt;SO&lt;/a&gt; is a priceless resource.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Learn to prioritize&lt;/strong&gt; - Now, I&amp;#39;m a full-time international student, with a part-time job, so this really applies to me. But everyone should know to priorize their tasks.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Do what you really want to do&lt;/strong&gt; - Listen to what people say, see what they do, read about it, but do only what you want to. Doing anything that you are not self-motivated about is fruitless.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Surround yourself with people like you&lt;/strong&gt; - &lt;a href=&quot;http://blog.ivyexec.com/2013/you-are-the-average-of-5-people-you-surround-yourself-with/&quot;&gt;You are the average of 5 people that surround you&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Don&amp;#39;t be afraid to talk about your projects&lt;/strong&gt; - It&amp;#39;s not bragging if done right. If anything, there&amp;#39;s a chance someone might be interested in what you&amp;#39;re talking about and offer to help.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Don&amp;#39;t just talk about your projects&lt;/strong&gt; - That pisses people off.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Don&amp;#39;t forget to take a break&lt;/strong&gt; - As &lt;a href=&quot;http://www.quicksprout.com/2013/05/06/how-to-be-a-workaholic-and-not-get-burnout/&quot;&gt;Neil Patel&lt;/a&gt; puts it: &amp;quot;Just go crazy once a month, and you’ll find yourself to be a much more productive worker.&amp;quot;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Numbers help, but don&amp;#39;t matter&lt;/strong&gt; - Internet points can help motivate you, but too much attention to them will make you lazy. &lt;a href=&quot;http://www.youtube.com/watch?v=UIDb6VBO9os&quot;&gt;Here&amp;#39;s a funny talk on that&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Always be learning&lt;/strong&gt; - It&amp;#39;s great that you know language x, try language y that has completely different paradigms. You know OOP, now try a functional language.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That&amp;#39;s all for now folks. Here&amp;#39;s to a prosperous 2014!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;If you&amp;#39;d like to comment on this post, hop on to &lt;a href=&quot;https://twitter.com/TheKaranGoel&quot;&gt;Twitter&lt;/a&gt;, or send me an &lt;a href=&quot;karan@goel.im&quot;&gt;email&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This post was hugely inspired by &lt;a href=&quot;http://www.ianww.com/blog/2013/12/31/my-year-in-side-projects/&quot;&gt;Ian Webster&amp;#39;s&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

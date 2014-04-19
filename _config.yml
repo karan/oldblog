@@ -1,13 +1,14 @@
-name: Karan Goel
-description: (Almost) Everything I like and do!
-meta_description: "Karan Goel's blog on programming, and life."
-permalink: permalink
-
 markdown: redcarpet
 pygments: true
 logo: false
-paginate: 15
 
-# Details for the RSS feed generator
-url:            'http://karan.github.io'
-author:         'Karan Goel'
+title: Karan Goel
+tagline: Blog
+description: I like to make things.
+url: http://karan.github.io/
+
+# author:
+#     name: 'Karan Goel'
+#     url: https://www.goel.im
+
+paginate: 5
