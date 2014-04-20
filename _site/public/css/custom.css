@@ -69,3 +69,15 @@ h4 {
 h5 {
     font-size: 1.4rem;
 }
+
+a .fa {
+    position: relative;
+    -webkit-transition: all 0.5s ease-out 0.2s;
+}
+
+a .fa:hover {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
