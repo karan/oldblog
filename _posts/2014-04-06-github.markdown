@@ -9,7 +9,7 @@ The world is moving to open source. From indie developers to multi-billion dolla
 
 ![](http://i.imgur.com/hZayDX8.png)
 
-#### But Karan, what exactly is open source?
+## But Karan, what exactly is open source?
 
 Since this is "Open Source 101", the first question you asked is appropriate. There are many different and sometimes conflicting definitions of open source. Some say that it's *free* software - not exactly true. Some say it's anything that's hosted on [Github](http://github.com/karan) - again, not accurate.
 
@@ -26,7 +26,7 @@ What keeps open source software running is the concept of collaborative problem 
 
 > Open source allows people to stop complaining about problems and actually solve them.
 
-#### OK. But why would I contribute to open source?
+## OK. But why would I contribute to open source?
 
 ![](https://farm3.staticflickr.com/2892/8989294371_fe20afe3dc_z_d.jpg)
 
@@ -42,11 +42,11 @@ What keeps open source software running is the concept of collaborative problem 
 
 - Some people also contribute to open source to build their **online presence**. After all, who doesn't like fake Internet points?
 
-#### So how do I get started?
+## So how do I get started?
 
 I'm glad you asked. :-)
 
-##### 1. Find a project
+### 1. Find a project
 
 The first step is to find a project that interests you. It can be something that you use (like VLC Player), or a library being used in something you use (like [marked](https://github.com/chjj/marked) library used by Atom Editor).
 
@@ -64,11 +64,11 @@ Use the following websites to find projects that might interest you:
 
     Open hatch has a search feature to narrow down projects or issues by language or project name. Something I really like, is the "[bytesize](https://openhatch.org/search/?q=&toughness=bitesize&language=C)" tag to sort the issues that are good for beginners.
 
-##### 2. Find an issue to work on
+### 2. Find an issue to work on
 
 Now that you have a project that you are willing to work on, you need to find something specific. On Github, each project has a little Issues area to track bugs and feature requests. Most open source projects use some sort of a bug tracker and keep a list of outstanding issues. Browse through that to see which one interests you. 
 
-##### 3. Grab the source code, and read through it
+### 3. Grab the source code, and read through it
 
 Now it's time to grab the source code, so you can play around with it. With git, it's as simple as
 
@@ -80,7 +80,7 @@ Reading existing code is terribly boring and sometimes extremely painful. Every 
 
 Make sure the code makes sense to you and you know where exactly to start to fix the bug or to add the feature.
 
-##### 4. Hack. Test. Hack. Test. Test.
+### 4. Hack. Test. Hack. Test. Test.
 
 Now start hacking away. Some projects have specific instructions for contributors, so be sure to follow them to make it easy on project maintainer(s) to merge your code in.
 
@@ -88,18 +88,18 @@ Do add documentation corresponding to your code too. What you do is useless if n
 
 An important part of programming is testing. Never, never, ever, never, never push untested code to production code. Always write unit tests, make sure they pass, and make sure existing tests don't fail.
 
-##### 5. Send your changes
+### 5. Send your changes
 
 All's good. You completed the issue. But that's just for yourself. Send the changes to the project originator so other people can benefit from your code too. Expect thorough code review and maybe criticism, but be strong and open to everything.
 
 Congratulations! You are an open source contributor now.
 
-#### Is it that easy?
+## Is it that easy?
 
 Yes. Becoming an open source contributor is really easy; people just prefer to be lazy.
 
 So there you have it folks, a primer on how to get started with open source contributions. No matter how much you read, you'll only do when you do. So stop reading, and start acting.
 
-#### Wait, wait.. How do I...?
+## Wait, wait.. How do I...?
 
 If you have any more questions, or suggestions, add them in the comments. I'll get back to you.

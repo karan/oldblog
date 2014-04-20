@@ -4,7 +4,7 @@
  <title>Karan Goel</title>
  <link href="http://karan.github.io//atom.xml" rel="self"/>
  <link href="http://karan.github.io//"/>
- <updated>2014-04-20T11:49:27-07:00</updated>
+ <updated>2014-04-20T12:03:52-07:00</updated>
  <id>http://karan.github.io/</id>
  <author>
    <name></name>
@@ -21,7 +21,7 @@
 
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/hZayDX8.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 
-&lt;h4&gt;But Karan, what exactly is open source?&lt;/h4&gt;
+&lt;h2&gt;But Karan, what exactly is open source?&lt;/h2&gt;
 
 &lt;p&gt;Since this is &amp;quot;Open Source 101&amp;quot;, the first question you asked is appropriate. There are many different and sometimes conflicting definitions of open source. Some say that it&amp;#39;s &lt;em&gt;free&lt;/em&gt; software - not exactly true. Some say it&amp;#39;s anything that&amp;#39;s hosted on &lt;a href=&quot;http://github.com/karan&quot;&gt;Github&lt;/a&gt; - again, not accurate.&lt;/p&gt;
 
@@ -44,7 +44,7 @@
 &lt;p&gt;Open source allows people to stop complaining about problems and actually solve them.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4&gt;OK. But why would I contribute to open source?&lt;/h4&gt;
+&lt;h2&gt;OK. But why would I contribute to open source?&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://farm3.staticflickr.com/2892/8989294371_fe20afe3dc_z_d.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 
@@ -58,11 +58,11 @@
 &lt;li&gt;&lt;p&gt;Some people also contribute to open source to build their &lt;strong&gt;online presence&lt;/strong&gt;. After all, who doesn&amp;#39;t like fake Internet points?&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4&gt;So how do I get started?&lt;/h4&gt;
+&lt;h2&gt;So how do I get started?&lt;/h2&gt;
 
 &lt;p&gt;I&amp;#39;m glad you asked. :-)&lt;/p&gt;
 
-&lt;h5&gt;1. Find a project&lt;/h5&gt;
+&lt;h3&gt;1. Find a project&lt;/h3&gt;
 
 &lt;p&gt;The first step is to find a project that interests you. It can be something that you use (like VLC Player), or a library being used in something you use (like &lt;a href=&quot;https://github.com/chjj/marked&quot;&gt;marked&lt;/a&gt; library used by Atom Editor).&lt;/p&gt;
 
@@ -80,11 +80,11 @@
 &lt;p&gt;Open hatch has a search feature to narrow down projects or issues by language or project name. Something I really like, is the &amp;quot;&lt;a href=&quot;https://openhatch.org/search/?q=&amp;amp;toughness=bitesize&amp;amp;language=C&quot;&gt;bytesize&lt;/a&gt;&amp;quot; tag to sort the issues that are good for beginners.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h5&gt;2. Find an issue to work on&lt;/h5&gt;
+&lt;h3&gt;2. Find an issue to work on&lt;/h3&gt;
 
 &lt;p&gt;Now that you have a project that you are willing to work on, you need to find something specific. On Github, each project has a little Issues area to track bugs and feature requests. Most open source projects use some sort of a bug tracker and keep a list of outstanding issues. Browse through that to see which one interests you. &lt;/p&gt;
 
-&lt;h5&gt;3. Grab the source code, and read through it&lt;/h5&gt;
+&lt;h3&gt;3. Grab the source code, and read through it&lt;/h3&gt;
 
 &lt;p&gt;Now it&amp;#39;s time to grab the source code, so you can play around with it. With git, it&amp;#39;s as simple as&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;$ git clone &amp;lt;repo-link&amp;gt;
@@ -95,7 +95,7 @@
 
 &lt;p&gt;Make sure the code makes sense to you and you know where exactly to start to fix the bug or to add the feature.&lt;/p&gt;
 
-&lt;h5&gt;4. Hack. Test. Hack. Test. Test.&lt;/h5&gt;
+&lt;h3&gt;4. Hack. Test. Hack. Test. Test.&lt;/h3&gt;
 
 &lt;p&gt;Now start hacking away. Some projects have specific instructions for contributors, so be sure to follow them to make it easy on project maintainer(s) to merge your code in.&lt;/p&gt;
 
@@ -103,19 +103,19 @@
 
 &lt;p&gt;An important part of programming is testing. Never, never, ever, never, never push untested code to production code. Always write unit tests, make sure they pass, and make sure existing tests don&amp;#39;t fail.&lt;/p&gt;
 
-&lt;h5&gt;5. Send your changes&lt;/h5&gt;
+&lt;h3&gt;5. Send your changes&lt;/h3&gt;
 
 &lt;p&gt;All&amp;#39;s good. You completed the issue. But that&amp;#39;s just for yourself. Send the changes to the project originator so other people can benefit from your code too. Expect thorough code review and maybe criticism, but be strong and open to everything.&lt;/p&gt;
 
 &lt;p&gt;Congratulations! You are an open source contributor now.&lt;/p&gt;
 
-&lt;h4&gt;Is it that easy?&lt;/h4&gt;
+&lt;h2&gt;Is it that easy?&lt;/h2&gt;
 
 &lt;p&gt;Yes. Becoming an open source contributor is really easy; people just prefer to be lazy.&lt;/p&gt;
 
 &lt;p&gt;So there you have it folks, a primer on how to get started with open source contributions. No matter how much you read, you&amp;#39;ll only do when you do. So stop reading, and start acting.&lt;/p&gt;
 
-&lt;h4&gt;Wait, wait.. How do I...?&lt;/h4&gt;
+&lt;h2&gt;Wait, wait.. How do I...?&lt;/h2&gt;
 
 &lt;p&gt;If you have any more questions, or suggestions, add them in the comments. I&amp;#39;ll get back to you.&lt;/p&gt;
 </content>
