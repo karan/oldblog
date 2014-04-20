@@ -113,6 +113,6 @@ That's all for now folks. Here's to a prosperous 2014!
 
 --------
 
-If you'd like to comment on this post, hop on to [Twitter](https://twitter.com/TheKaranGoel), or send me an [email](karan@goel.im).
+If you'd like to comment on this post, hop on to [Twitter](https://twitter.com/TheKaranGoel), or send me an [email](mailto:karan@goel.im).
 
 *This post was hugely inspired by [Ian Webster's](http://www.ianww.com/blog/2013/12/31/my-year-in-side-projects/).*
