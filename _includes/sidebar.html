@@ -1,9 +1,11 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
+      {% if page.title != "Home" %}
       <div style="margin:20px auto;">
         <a href="/"><i class="fa fa-2x fa-home"></i></a>
       </div>
+      {% endif %}
       <div><img style="margin:20px auto;border-radius:50%;" style="margin-left:auto;margin-right:auto;" src="/assets/images/me.jpg" width="200" class="me"/></div>
       <h1>{{ site.title }}</h1>
       <p class="lead">
