@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How do spammers harvest your e-mail address?"
-permalink: 2014/03/26/email-spam.html‎
+permalink: email-spam
 date:   2014-03-26 17:00:00
 ---
 

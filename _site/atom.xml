@@ -4,7 +4,7 @@
  <title>Karan Goel</title>
  <link href="http://karan.github.io//atom.xml" rel="self"/>
  <link href="http://karan.github.io//"/>
- <updated>2014-04-20T12:18:13-07:00</updated>
+ <updated>2014-04-20T12:41:10-07:00</updated>
  <id>http://karan.github.io/</id>
  <author>
    <name></name>
@@ -123,9 +123,9 @@
  
  <entry>
    <title>How do spammers harvest your e-mail address?</title>
-   <link href="http://karan.github.io//2014/03/26/email-spam.html‎"/>
+   <link href="http://karan.github.io//email-spam"/>
    <updated>2014-03-26T17:00:00Z</updated>
-   <id>http://karan.github.io//2014/03/26/email-spam</id>
+   <id>http://karan.github.io//email-spam</id>
    <content type="html">&lt;p&gt;This is an update on the research I did under the guidance of &lt;a href=&quot;http://jeffhuang.com/&quot;&gt;Jeff Huang&lt;/a&gt; (now assistant professor at Brown University) titled &lt;a href=&quot;https://experiment.com/projects/how-do-spammers-harvest-your-e-mail-address&quot;&gt;How do spammers harvest your e-mail address?&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr&gt;
@@ -357,9 +357,9 @@
  
  <entry>
    <title>My year in open source and side projects!</title>
-   <link href="http://karan.github.io//2013/12/31/my-year-in-open-source.html"/>
+   <link href="http://karan.github.io//2013-open-source"/>
    <updated>2013-12-31T08:42:00Z</updated>
-   <id>http://karan.github.io//2013/12/31/my-year-in-open-source</id>
+   <id>http://karan.github.io//my-year-in-open-source</id>
    <content type="html">&lt;p&gt;Ok wow. What an year it has been. A lot happened with me in my personal life - both good and bad - but I&amp;#39;ll try to refrain from speaking (or writing, technically) about them here.&lt;/p&gt;
 
 &lt;p&gt;This post is my reflection of my work in open source and side projects in 2013.&lt;/p&gt;

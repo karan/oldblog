@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My year in open source and side projects!"
-permalink: 2013/12/31/my-year-in-open-source.html
+permalink: 2013-open-source
 date:   2013-12-31 08:42:00
 ---
 
