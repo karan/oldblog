@@ -19,3 +19,24 @@
 .sep {
     margin: 0 5px;
 }
+
+#post-end {
+    /*border-top: 2px solid #333;*/
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+.post-date {
+    text-align: center;
+}
+
+.page-title, .post-title {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h1 a:hover {
+    text-decoration: none;
+}

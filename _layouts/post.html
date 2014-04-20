@@ -3,17 +3,17 @@ layout: default
 ---
 
 <div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
+  <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
   {{ content }}
+  <div id="post-end">
+    <p>To get occasional notifications when I write blog posts, <a href="http://eepurl.com/SRIPT" target="_blank">sign up for my email list</a> or <a href="https://twitter.com/TheKaranGoel" target="_blank">follow me on Twitter</a>.</p>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="TheKaranGoel" data-size="large">Tweet</a>
+  </div>
 
-  <a href="https://twitter.com/share" class="twitter-share-button" data-via="TheKaranGoel" data-size="large">Tweet</a>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  <a href="https://twitter.com/TheKaranGoel" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @TheKaranGoel</a>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
 
-<div class="related">
+<!-- <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
@@ -27,7 +27,7 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-</div>
+</div> -->
 
 <div id="disqus_thread"></div>
   <script type="text/javascript">
