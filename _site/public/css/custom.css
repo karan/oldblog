@@ -1,3 +1,19 @@
+::-webkit-input-placeholder {
+    color: #202020;
+}
+
+:-moz-placeholder {
+    color: #202020;
+}
+
+::-moz-placeholder {
+    color: #202020;
+}
+
+:-ms-input-placeholder {
+    color: #202020;
+}
+
 #social {
     margin-bottom: 10px;
 }
@@ -80,4 +96,64 @@ a .fa:hover {
     -moz-transform: rotate(-360deg);
     -o-transform: rotate(-360deg);
     transform: rotate(-360deg);
+}
+
+#mc-embedded-subscribe-form {
+    background: #202020;
+    color: #fff;
+    margin-top: 30px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#mc-embedded-subscribe-form h4 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+input#mce-EMAIL.email {
+    height: 50px;
+    width: 70%;
+    max-width: 400px;
+    padding: 7px 15px;
+    display: inline-block;
+    font-weight: bold;
+    background: #fff;
+    font-size: 1em;
+    color: #202020;
+    margin-right: 3%
+}
+
+input#mce-EMAIL.email:focus {
+    outline: 0;
+}
+
+input#mc-embedded-subscribe {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 25%;
+    max-width: 150px;
+    display: inline-block;
+    height: 50px;
+    padding: 7px 10px;
+    color: #fff;
+    background-color: #202020;
+    border: 2px solid #fff;
+    font-size: 1em;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear
+}
+
+input#mc-embedded-subscribe:hover {
+    background-color: #fff;
+    color: #202020;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear
 }
