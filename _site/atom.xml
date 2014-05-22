@@ -4,7 +4,7 @@
  <title>Karan Goel</title>
  <link href="http://karan.github.io//atom.xml" rel="self"/>
  <link href="http://karan.github.io//"/>
- <updated>2014-04-22T21:41:11-07:00</updated>
+ <updated>2014-05-21T23:14:26-07:00</updated>
  <id>http://karan.github.io/</id>
  <author>
    <name></name>
@@ -13,35 +13,95 @@
 
  
  <entry>
-   <title>Time Management Tricks for College Students</title>
+   <title>Time Hacking for College Students</title>
    <link href="http://karan.github.io//time-management"/>
    <updated>2014-04-26T17:00:00Z</updated>
    <id>http://karan.github.io//time-management</id>
-   <content type="html">&lt;p&gt;Picture this: Full-time student taking full course load, working part time, leading a growing club at his college, actively working on half a dozen software projects and still finding time to run every other day. Seems like a handful, doesn&amp;#39;t it? I&amp;#39;m often asked by many about how I manage my time, and I find myself repeating the answer. Hence this post.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Picture this: Full-time student taking full course load, working part time, leading &lt;a href=&quot;https://www.facebook.com/groups/uwhackers/&quot;&gt;a growing club&lt;/a&gt; at his university, actively working on &lt;a href=&quot;https://github.com/karan&quot;&gt;half a dozen software projects&lt;/a&gt; at any given time and still finding time to exercise every other day. Seems like a handful, doesn&amp;#39;t it? That&amp;#39;s my life in under 50 words. I&amp;#39;m often asked by many about how I manage my time, and I find myself repeating the answer. Hence this post.&lt;/p&gt;
 
-&lt;p&gt;This won&amp;#39;t be a long post (trying not be ironic with this post), but I&amp;#39;ll try to get my message across. If you find anything ambiguous or wrong, &lt;a href=&quot;http://twitter.com/TheKaranGoel&quot;&gt;get in touch&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This won&amp;#39;t be a long post (trying not be ironic here), but I&amp;#39;ll try to get my message across. Some of the early points will be what I do regularly and works for me. Some later ones will be common strategies and techniques to use to manage your time well, which I sometimes follow and they occasionally work for me.&lt;/p&gt;
 
-&lt;p&gt;Set the alarm for an hour early - even on weekends. Find the right time
-Don&amp;#39;t feel guilty about lost time.
-STFU and do it (stop reading, and start doing)
-Make it fun (don&amp;#39;t ask others how, figure a way that suits you)
-exercising will help significantly
-Ditch the TV and cable
-Maintain a to-do list
-Maintain a calendar
-Write shit down
-Things that take &amp;lt;5 minutes must be done ASAP
-Inbox zero
-Don&amp;#39;t hang out with people who don’t respect your time (say no)
-Learn to cut to the chase
-Time management == doing stuff AND finding time to hang out with humans
-Automate everything
-Prioritize (!)
-Organize - room, homework, bag, mobile phone
-Seek to optimize everything
-ROI matters - 80/20. Spend time doing coursework that contributes most to learning and grades. Find your priorities.
-Keep learning new skills - do not get rusty
-Talk about what you are working on with the right people&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3462/3967849907_67c1255977_b.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;If you find anything ambiguous or wrong, &lt;a href=&quot;http://twitter.com/TheKaranGoel&quot;&gt;get in touch&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Set the alarm for an hour early - even on weekends&lt;/h3&gt;
+
+&lt;p&gt;This is what I have recently started doing - I used to wake up at around 7 until a few months ago, but now I wake up at 6 in the morning. Yes, for college students, this is the &amp;quot;holy-shit-it&amp;#39;s-too-early&amp;quot; time, but for me, it&amp;#39;s the time when I am most productive. I have found that waking up early, washing up, and then working on personal projects gives me the most productive hour. The main point here however is to be consistent - sure if you pulled an all-nighter then you deserve to sleep, otherwise, keep your sleeping schedule consistent throughout the week (that includes weekends).&lt;/p&gt;
+
+&lt;p&gt;I highly recommend that you try this for yourself and find your perfect time.&lt;/p&gt;
+
+&lt;h3&gt;Don&amp;#39;t feel guilty about lost time.&lt;/h3&gt;
+
+&lt;p&gt;Seriously. Don&amp;#39;t. You were partying till 3am last Friday and had a bad hangover the next day. It&amp;#39;s done. Forget about it. Focus on today. That&amp;#39;s what matters now.&lt;/p&gt;
+
+&lt;h3&gt;Set small goals, and stick to them&lt;/h3&gt;
+
+&lt;p&gt;Until end of my freshman year, I just used to do whatever I wanted to. I did not really have a direction - I knew what I wanted, but didn&amp;#39;t know how. Then I set micro-goals for myself:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I&amp;#39;ll write at least 1 Python script a day&lt;/li&gt;
+&lt;li&gt;I&amp;#39;ll talk to at least 1 new student every day&lt;/li&gt;
+&lt;li&gt;I&amp;#39;ll run at least 1 mile every other day&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These small goals became my pathways. And trust me, these small goals have turned into huge life events. My coding skills have improved significantly, I&amp;#39;m able to learn new things really fast, I&amp;#39;m a much better listener and conversationist (still improving, though), and I recently ran a 5k. I&amp;#39;ll say it again, being consistent with your goals rewards you greatly.&lt;/p&gt;
+
+&lt;h3&gt;Exercising will help significantly&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4082/4782840214_a6e524d4eb_b.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve been thinking of finding time to exercise since freshman year but just kept on avoiding it. Sometimes I was so busy that I used to spend almost 12 hours each day sitting in labs and working on homework. But now I forced myself to run every other day - no matter how, but I forced myself to take time out. What I have found is that physical activity can greatly improve your productivity by giving you a break from the usual. Go spend an hour at your gym at your school, you&amp;#39;ll see what all there is, and maybe, like me, you&amp;#39;ll run into an old friend you haven&amp;#39;t seen for months.&lt;/p&gt;
+
+&lt;h3&gt;Automate everything&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Learn to code&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Automate repetitive tasks&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; ???&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Profit&lt;/p&gt;
+
+&lt;h3&gt;Maintain a to-do list&lt;/h3&gt;
+
+&lt;p&gt;I use &lt;a href=&quot;https://www.wunderlist.com/en/&quot;&gt;Wunderlist&lt;/a&gt; - and love it. Whenever I get something to do, I instantly add it to my list. I also maintain categories for easy management and classification of my todos. (Read next point)&lt;/p&gt;
+
+&lt;h3&gt;If something will take less than 2 minutes, do it now&lt;/h3&gt;
+
+&lt;p&gt;The only exception to the previous rule is this - if I get something to do that will take me a minute or two, I complete it at the same moment. This keeps me from flooding my to-do list with micro-tasks, and don&amp;#39;t give me a false sense of being busy (which humans inherently love.&lt;/p&gt;
+
+&lt;h3&gt;Prioritize (!)&lt;/h3&gt;
+
+&lt;p&gt;One of the most crucial parts about having a to-do list is to know how to prioritize your tasks. Like most things in life, sadly there&amp;#39;s no one-size-fits-all for your tasks. Know what you have to do now, or today, or this week, and what happens if you miss the deadline. Learn to think in a pro-cons way and to weight each side. Learn to take decisions for your life.&lt;/p&gt;
+
+&lt;h3&gt;Maintain a calendar&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3758/9011116378_32e56983e3_b.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Kind of similar to maintaining a to-do list - any event, meeting, appointment, class goes into my calendar. I set appropriate notifications and reminders and make sure to see the calendar every morning to prepare myself for the day.&lt;/p&gt;
+
+&lt;h3&gt;Inbox zero&lt;/h3&gt;
+
+&lt;p&gt;A few months ago, &lt;a href=&quot;http://klinger.io/post/71640845938/dont-drown-in-email-how-to-use-gmail-more&quot;&gt;I started doing this&lt;/a&gt; - highly recommended. At any given point, I have a total of 0 emails in my inbox. Whenever I can any new mail, I process it by either replying, or delegating, or archiving, or deleting.&lt;/p&gt;
+
+&lt;h3&gt;Don&amp;#39;t hang out with people who don’t respect your time&lt;/h3&gt;
+
+&lt;p&gt;Ditch people who:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Force you to &amp;quot;have fun&amp;quot; when you don&amp;#39;t want to&lt;/li&gt;
+&lt;li&gt;Don&amp;#39;t value your work&lt;/li&gt;
+&lt;li&gt;Are always sad or otherwise negative&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Keep learning new skills&lt;/h3&gt;
+
+&lt;p&gt;Now that you have a lot of free time, please don&amp;#39;t spend it on playing video games or watching TV. Keep learning. Learn new things. Make sure you don&amp;#39;t get rusty.&lt;/p&gt;
+
+&lt;h3&gt;Have fun&lt;/h3&gt;
+
+&lt;p&gt;Life isn&amp;#39;t just about finding ways to be more productive, or optimization of daily tasks. It&amp;#39;s ok to take a break. Go for a walk once in a while. Go to a rave every couple months to vent out. Know when you are burned out and need to get away from everything and then actually do it.&lt;/p&gt;
 </content>
  </entry>
  
