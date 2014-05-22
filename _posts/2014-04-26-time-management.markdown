@@ -34,7 +34,7 @@ Until end of my freshman year, I just used to do whatever I wanted to. I did not
 - I'll talk to at least 1 new student every day in my lecture in the first two weeks
 - I'll run at least 1 mile every other day for three months
 
-These small goals became my pathways. And trust me, these small goals have turned into huge life events. My coding skills have improved significantly, I'm able to learn new things really fast, I'm a much better listener and conversationist (still improving, though), and I recently ran a 5k.
+These small goals became my pathways. And trust me, these **small goals have turned into huge life events**. My coding skills have improved significantly, I'm able to learn new things really fast, I'm a much better listener and conversationist (still improving, though), and I recently ran a 5k.
 
 The trick here is two-part:
 
@@ -43,13 +43,13 @@ The trick here is two-part:
 
 I'll say it again, being consistent with your goals rewards you greatly.
 
-### Exercising will help significantly
+### Exercising regularly to break out
 
 ![](https://farm5.staticflickr.com/4082/4782840214_a6e524d4eb_b.jpg)
 
-I've been thinking of finding time to exercise since freshman year but just kept on avoiding it. Sometimes I was so busy that I used to spend almost 12 hours each day sitting in labs and working on homework. But now I forced myself to run every other day - no matter how, but I forced myself to take time out. 
+I'd been thinking of finding time to exercise since freshman year but just kept on avoiding it. Sometimes I was so busy that I used to spend almost 12 hours each day sitting in labs and working on my homework. But now I forced myself to run every other day - no matter how, but I forced myself to take time out.
 
-What I have found is that physical activity can greatly improve your productivity by giving you a break from the usual. Go spend an hour at your gym at your school, you'll see what all there is, and maybe, like me, you'll run into an old friend you haven't seen for months.
+What I have found is that **physical activity can greatly improve your productivity** by giving you a break from the usual, and [some research](http://www.sciencedaily.com/releases/2011/09/110906121011.htm) vouches for this. Go spend an hour at your gym at your school, and maybe, like me, you'll run into an old friend you haven't seen for months.
 
 ### Automate everything
 
@@ -85,7 +85,7 @@ Kind of similar to maintaining a to-do list - any event, meeting, appointment, c
 
 ![](https://farm4.staticflickr.com/3758/9011116378_32e56983e3_b.jpg)
 
-A few months ago, [I started doing this](http://klinger.io/post/71640845938/dont-drown-in-email-how-to-use-gmail-more) - highly recommended. At any given point, I have a total of 0 emails in my inbox. Whenever I can any new mail, I process it by either replying, or delegating, or archiving, or deleting.
+A few months ago, [I started doing this](http://klinger.io/post/71640845938/dont-drown-in-email-how-to-use-gmail-more) - highly recommended. At any given point, I have a total of 0 emails in my inbox. Whenever I get any new mail, I process it by either replying, or delegating, or archiving, or deleting.
 
 ### Don't hang out with people who don’t respect your time
 
@@ -109,6 +109,6 @@ Life isn't just about finding ways to be more productive, or optimization of dai
 
 The number one reason why I am able to do so much and still have some free time for myself is because I do what I love. It's not something that some teacher or parent wants me to do.
 
-My friends are the best people on the planet - I talk to them about my studies, work and projects and often collect feedback. They talk about theirs as well. Most of us work almost all the time, and it's fun.
+Moreover, my friends are the best people on the planet - I talk to them about my studies, work and projects and often collect feedback. They talk about theirs' as well. Most of us work almost all the time, and it's fun.
 
 To reiterate, the tacticts above may not work for you, they are just references. You need to find what's perfect for you, test, tweak and improve from there.
