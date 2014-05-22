@@ -111,4 +111,4 @@ The number one reason why I am able to do so much and still have some free time 
 
 Moreover, my friends are the best people on the planet - I talk to them about my studies, work and projects and often collect feedback. They talk about theirs' as well. Most of us work almost all the time, and it's fun.
 
-To reiterate, the tactics above may not work for you, they are just references. You need to find what's perfect for you, test, tweak and improve from there.
+To reiterate, the tactics above may not work for you, they are just references. You need to find what works for you, test, tweak and improve from there.
