@@ -30,10 +30,10 @@
   <!-- CSS -->
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
   <link rel="stylesheet" href="/public/css/custom.css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
@@ -46,42 +46,75 @@
 
   <body>
 
-    <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      
-      <div style="margin:20px auto;">
-        <a href="/"><i class="fa fa-2x fa-home"></i></a>
-      </div>
-      
-      <div><img style="margin:20px auto;border-radius:50%;" style="margin-left:auto;margin-right:auto;" src="/assets/images/me.jpg" width="200" class="me"/></div>
-      <h1>Karan Goel</h1>
-      <p class="lead">
-        I like to make things.. <a href="http://www.goel.im" target="_blank">About Me</a>
-      </p>
-      <div id="social">
-        <a href="http://twitter.com/TheKaranGoel" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-        <a href="http://github.com/karan" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-      </div>
-    </div>
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
-    <ul class="sidebar-nav">
-      <li class="sidebar-nav-item"><a href="/archive.html">Archive</a> <i class="sep fa fa-dot-circle-o"></i> <a href="http://eepurl.com/SRIPT" target="_blank" title="Be the first to know when I make something new.">Email List</a></li>
-    </ul>
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <div><img style="margin:20px auto;border-radius:50%;" style="margin-left:auto;margin-right:auto;" src="/assets/images/me.jpg" width="200" class="me"/></div>
+    <!-- <p>Thoughts on programming and life.</p> -->
+  </div>
 
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/"><i class="fa fa-2x fa-home"></i>Home</a>
+    <a class="sidebar-nav-item" href="http://www.goel.im" target="_blank"><i class="fa fa-user fa-2x"></i>About</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/archive/"><i class="fa fa-archive fa-2x"></i>Archive</a>
+        
+      
+    
+      
+    
+      
+        
+      
+    
+
+    <a class="sidebar-nav-item" href="http://github.com/karan" target="_blank"><i class="fa fa-github fa-2x"></i>Github</a>
+    <a class="sidebar-nav-item" href="https://twitter.com/TheKaranGoel" target="_blank"><i class="fa fa-twitter fa-2x"></i>Twitter</a>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2014. All rights reserved.
+    </p>
   </div>
 </div>
 
 
-    <div class="content container">
-      <div class="post">
-  <span class="post-date">31 Dec 2013</span>
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Karan Goel</a>
+            <small>Blog</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
   <h1 class="post-title"><a href="/2013-open-source">My year in open source and side projects!</a></h1>
+  <span class="post-date">31 Dec 2013</span>
   <p>Ok wow. What an year it has been. A lot happened with me in my personal life - both good and bad - but I&#39;ll try to refrain from speaking (or writing, technically) about them here.</p>
 
 <p>This post is my reflection of my work in open source and side projects in 2013.</p>
 
-<p><img src="http://karan.github.io//assets/images/year-1.png" alt=""></p>
+<p><img src="http://karan.github.io/assets/images/year-1.png" alt=""></p>
 
 <p>I joined <a href="https://github.com/">Github</a> about 50 weeks ago, after reading a lot about it over on reddit. But the whole concept of version control made no sense to me at all. Like, what is &quot;<em>distributed</em> version control&quot;, &quot;who would use it&quot;, &quot;open source, ok cool&quot;. So, naturally, I didn&#39;t use it much.</p>
 
@@ -107,7 +140,7 @@
 
 <p>Yet Another Learning Tool (YALT) is a lightweight and minimal utility to make it easier for you to remember things. It is a flash-card like system, where you&#39;lll be presented with random questions from selected database. With YALT, you have to spend less time learning more.</p>
 
-<p><img src="http://karan.github.io//assets/images/year-2.png" alt=""></p>
+<p><img src="http://karan.github.io/assets/images/year-2.png" alt=""></p>
 
 <p>YALT, as I call it, was the first serious project I ever worked on. It was my first advent in the world of open source. It was the very first piece of code I put on Github. It was not a unique idea, and definitely not an open-source-worthy implementation. At the time, I was learning Java, and just wanted to make something cool with a minimal GUI. Because, buttons.</p>
 
@@ -115,7 +148,7 @@
 
 <p>MoodicPlayer, using last.fm API, builds a playlist for users based on their mood.</p>
 
-<p><img src="http://karan.github.io//assets/images/year-3.png" alt=""></p>
+<p><img src="http://karan.github.io/assets/images/year-3.png" alt=""></p>
 
 <p>The idea for this app(let) excites many people. As simple as the GUI looks, building the whole app, and getting things to work was painful. I locked myself in a room for 3 days just get the last.fm API auth (which was an alien concept to me) to work.</p>
 
@@ -123,7 +156,7 @@
 
 <p><em>Projects</em> is a list of practical projects that anyone can solve in any programming language. These projects are divided in multiple categories.</p>
 
-<p><img src="http://karan.github.io//assets/images/year-4.png" alt=""></p>
+<p><img src="http://karan.github.io/assets/images/year-4.png" alt=""></p>
 
 <p>This is when things started to get interesting for me. I wanted to learn Python. I did tons of tutorials online, but everyone just taught the basics. I had no idea what I was doing. I realized that I&#39;m not alone in this. There&#39;s other people who miss a better way to learn a language. Hence, this list. I announced it to <a href="http://www.reddit.com/r/learnpython/comments/1huuqk/im_doing_100_projects_in_python_to_learn_the/">reddit</a> after which it just took off. As of today, the repo has 4000+ stars, and over <a href="https://github.com/karan/Projects-Solutions/graphs/contributors">40 people</a> have contributed their own solutions.</p>
 
@@ -131,7 +164,7 @@
 
 <p>This little script helps migrate an old Reddit account to a new one.</p>
 
-<p><img src="http://karan.github.io//assets/images/year-5.png" alt=""></p>
+<p><img src="http://karan.github.io/assets/images/year-5.png" alt=""></p>
 
 <p>Because I was learning Python at the time, and we all know how well the language works with the reddit API, I wanted to make something practically usable. Seeing how much throwaway accounts are used there, this was a great thing to make.</p>
 
@@ -139,7 +172,7 @@
 
 <p>TPB is an unofficial Python API for ThePirateBay. (don&#39;t look at me like that.)</p>
 
-<p><img src="http://karan.github.io//assets/images/year-6.png" alt=""></p>
+<p><img src="http://karan.github.io/assets/images/year-6.png" alt=""></p>
 
 <p>When I started this project, I was fascinated by the power of having open-everything. What access to data can do. One of the biggest (controversial) websites on the Internet, that runs exactly to take that motto forward, that no good API for developers. I said to myself, well, if no one wants to do it, I&#39;ll do it. The <a href="http://www.reddit.com/r/programming/comments/1lkg1y/thepiratebay_api_for_python/">response</a> <a href="http://www.reddit.com/r/opensource/comments/1lkfyl/thepiratebay_api_for_python/">on reddit</a> is a clear indicator of what people want to do, but can&#39;t because of restrictions on data.</p>
 
@@ -147,7 +180,7 @@
 
 <p>HackerNews API is an unofficial Python API for HackerNews, and HNify is it&#39;s RESTful port.</p>
 
-<p><img src="http://karan.github.io//assets/images/year-7.png" alt=""></p>
+<p><img src="http://karan.github.io/assets/images/year-7.png" alt=""></p>
 
 <p>I found it a little ironic that one of the top hacker sites had no open, working API. I took as a learning opportunity to change that. These projects were two of my biggest projects, with a diversity of new concepts and technologies that I had to learn. And <a href="https://news.ycombinator.com/item?id=6374031">people</a> <a href="http://www.reddit.com/r/flask/comments/1ph746/hnify_api_for_hacker_news_my_first_api_in_flask/">loved it</a>.</p>
 
@@ -183,73 +216,76 @@
 
 <p><em>This post was hugely inspired by <a href="http://www.ianww.com/blog/2013/12/31/my-year-in-side-projects/">Ian Webster&#39;s</a>.</em></p>
 
-
-  <div id="post-end">
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="TheKaranGoel" data-size="large">Tweet</a>
-    <a href="https://twitter.com/TheKaranGoel" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @TheKaranGoel</a>
-
-    <form id="mc-embedded-subscribe-form" action="http://goel.us3.list-manage.com/subscribe/post?u=e6728b4299cef4104e10240b9&amp;id=7fd1fe0c0d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate" class="validate">
-      <h4>Stay tuned about future posts and projects.</h4>
-      <input id="mce-EMAIL" type="email" value="" name="EMAIL" required="required" placeholder="your@email.com" class="email"/>
-      <input id="mc-embedded-subscribe" type="submit" value="Subscribe" name="subscribe" class="button"/>
-      <div style="position: absolute; left: -5000px;">
-        <input type="text" name="b_e6728b4299cef4104e10240b9_7fd1fe0c0d" value=""/>
-      </div>
-    </form>
-  </div>
-
 </div>
+
+<div id="post-end">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="TheKaranGoel" data-size="large">Tweet</a>
+  <a href="https://twitter.com/TheKaranGoel" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @TheKaranGoel</a>
+
+  <form id="mc-embedded-subscribe-form" action="http://goel.us3.list-manage.com/subscribe/post?u=e6728b4299cef4104e10240b9&amp;id=7fd1fe0c0d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate" class="validate">
+    <h4>Stay tuned about future posts and projects.</h4>
+    <input id="mce-EMAIL" type="email" value="" name="EMAIL" required="required" placeholder="your@email.com" class="email"/>
+    <input id="mc-embedded-subscribe" type="submit" value="Subscribe" name="subscribe" class="button"/>
+    <div style="position: absolute; left: -5000px;">
+      <input type="text" name="b_e6728b4299cef4104e10240b9_7fd1fe0c0d" value=""/>
+    </div>
+  </form>
+</div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'karan-github'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
 
 <!-- <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
     
       <li>
-        <p>
+        <h3>
           <a href="/time-management">
             Time Hacking for College Students
             <small>22 May 2014</small>
           </a>
-        </p>
+        </h3>
       </li>
     
       <li>
-        <p>
+        <h3>
           <a href="/open-source-101">
             Getting started with open source contributions
             <small>06 Apr 2014</small>
           </a>
-        </p>
+        </h3>
       </li>
     
       <li>
-        <p>
+        <h3>
           <a href="/email-spam">
             How do spammers harvest your e-mail address?
             <small>26 Mar 2014</small>
           </a>
-        </p>
+        </h3>
       </li>
     
   </ul>
 </div> -->
 
-<div id="disqus_thread"></div>
-  <script type="text/javascript">
-      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-      var disqus_shortname = 'karan-github'; // required: replace example with your forum shortname
-
-      /* * * DON'T EDIT BELOW THIS LINE * * */
-      (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
+      </div>
     </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
   </body>
 </html>

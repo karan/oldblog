@@ -1,14 +1,22 @@
-markdown: redcarpet
-pygments: true
-logo: false
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-title: Karan Goel
-tagline: Blog
-description: I like to make things.
-url: http://karan.github.io/
+# Permalinks
+permalink:        pretty
 
-# author:
-#     name: 'Karan Goel'
-#     url: https://www.goel.im
+# Setup
+title:            Karan Goel
+tagline:          'Blog'
+description:      'Thoughts on programming and life.'
+url:              http://karan.github.io
+paginate:         5
 
-paginate: 5
+author:
+  name:           'Karan Goel'
+  url:             http://www.goel.im
+  twitter:         https://twitter.com/TheKaranGoel
+  github:          http://github.com/karan 
+
+# Custom vars
+version:          1.0.0

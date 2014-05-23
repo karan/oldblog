@@ -14,32 +14,12 @@
     color: #202020;
 }
 
-#social {
-    margin-bottom: 10px;
-}
-
-#social a {
+.sidebar i.fa.fa-2x {
     margin-right: 10px;
 }
 
-.sidebar {
-    text-align: center;
-}
-
-@media (max-width: 48rem) {
-    .me {
-        display: none;
-    }
-}
-
-.sep {
-    margin: 0 5px;
-}
-
-#post-end {
-    /*border-top: 2px solid #333;*/
-    margin-top: 1rem;
-    padding-top: 1rem;
+.sidebar a {
+    -webkit-transition: all 0.2s ease-out 0.2s;
 }
 
 .post-date {
@@ -49,6 +29,7 @@
 .page-title, .post-title {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -71,11 +52,11 @@ h1 {
 }
 
 h2 {
-    font-size: 2.2em;
+    font-size: 2.4em;
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 h4 {
@@ -86,24 +67,13 @@ h5 {
     font-size: 1.4rem;
 }
 
-a .fa {
-    position: relative;
-    -webkit-transition: all 0.5s ease-out 0.2s;
-}
-
-a .fa:hover {
-    -webkit-transform: rotate(-360deg);
-    -moz-transform: rotate(-360deg);
-    -o-transform: rotate(-360deg);
-    transform: rotate(-360deg);
-}
-
 #mc-embedded-subscribe-form {
     background: #202020;
     color: #fff;
-    margin-top: 30px;
-    padding: 40px 20px;
+    margin: 50px 0px;
+    padding: 50px 20px;
     text-align: center;
+    border-radius: 4px;
 }
 
 #mc-embedded-subscribe-form h4 {

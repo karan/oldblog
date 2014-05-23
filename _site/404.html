@@ -30,10 +30,10 @@
   <!-- CSS -->
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
   <link rel="stylesheet" href="/public/css/custom.css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
@@ -46,40 +46,76 @@
 
   <body>
 
-    <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      
-      <div style="margin:20px auto;">
-        <a href="/"><i class="fa fa-2x fa-home"></i></a>
-      </div>
-      
-      <div><img style="margin:20px auto;border-radius:50%;" style="margin-left:auto;margin-right:auto;" src="/assets/images/me.jpg" width="200" class="me"/></div>
-      <h1>Karan Goel</h1>
-      <p class="lead">
-        I like to make things.. <a href="http://www.goel.im" target="_blank">About Me</a>
-      </p>
-      <div id="social">
-        <a href="http://twitter.com/TheKaranGoel" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-        <a href="http://github.com/karan" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-      </div>
-    </div>
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
-    <ul class="sidebar-nav">
-      <li class="sidebar-nav-item"><a href="/archive.html">Archive</a> <i class="sep fa fa-dot-circle-o"></i> <a href="http://eepurl.com/SRIPT" target="_blank" title="Be the first to know when I make something new.">Email List</a></li>
-    </ul>
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <div><img style="margin:20px auto;border-radius:50%;" style="margin-left:auto;margin-right:auto;" src="/assets/images/me.jpg" width="200" class="me"/></div>
+    <!-- <p>Thoughts on programming and life.</p> -->
+  </div>
 
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/"><i class="fa fa-2x fa-home"></i>Home</a>
+    <a class="sidebar-nav-item" href="http://www.goel.im" target="_blank"><i class="fa fa-user fa-2x"></i>About</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/archive/"><i class="fa fa-archive fa-2x"></i>Archive</a>
+        
+      
+    
+      
+    
+      
+        
+      
+    
+
+    <a class="sidebar-nav-item" href="http://github.com/karan" target="_blank"><i class="fa fa-github fa-2x"></i>Github</a>
+    <a class="sidebar-nav-item" href="https://twitter.com/TheKaranGoel" target="_blank"><i class="fa fa-twitter fa-2x"></i>Twitter</a>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2014. All rights reserved.
+    </p>
   </div>
 </div>
 
 
-    <div class="content container">
-      <div class="page">
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Karan Goel</a>
+            <small>Blog</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="page">
   <h1 class="page-title">404: Page not found</h1>
   <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="/">Head back home</a> to try finding it again.</p>
 </div>
 
+      </div>
     </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
   </body>
 </html>
