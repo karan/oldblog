@@ -5,9 +5,9 @@ description: "Here are the results we got after one year of waiting and after po
 permalink: email-spam
 tags: [research, programming]
 image:
-  feature: abstract-6.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: mobile.jpg
+  credit: ter-burg
+  creditlink: https://www.flickr.com/photos/ter-burg/9011116378/sizes/l/
 date: 2014-03-26 17:00:00
 comments: true
 ---

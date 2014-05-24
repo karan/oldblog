@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://karan.github.io</loc>
+        <loc></loc>
     </url>
     
     
     <url>
-        <loc>http://karan.github.io/404.html</loc>
+        <loc>/404.html</loc>
     </url>
     
     <url>
-        <loc>http://karan.github.io/feed.xml</loc>
+        <loc>/feed.xml</loc>
     </url>
     
     <url>
-        <loc>http://karan.github.io/index.html</loc>
+        <loc>/index.html</loc>
     </url>
     
     <url>
-        <loc>http://karan.github.io/posts/</loc>
+        <loc>/posts/</loc>
     </url>
     
     <url>
-        <loc>http://karan.github.io/sitemap.xml</loc>
+        <loc>/sitemap.xml</loc>
     </url>
     
     <url>
-        <loc>http://karan.github.io/tags/</loc>
+        <loc>/tags/</loc>
     </url>
     
 
     
     <url>
-        <loc>http://karan.github.io/time-management</loc>
+        <loc>/time-management</loc>
     </url>
     
     <url>
-        <loc>http://karan.github.io/open-source-101</loc>
+        <loc>/open-source-101</loc>
     </url>
     
     <url>
-        <loc>http://karan.github.io/email-spam</loc>
+        <loc>/email-spam</loc>
     </url>
     
     <url>
-        <loc>http://karan.github.io/2013-open-source</loc>
+        <loc>/2013-open-source</loc>
     </url>
     
 </urlset>

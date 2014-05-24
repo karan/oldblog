@@ -6,9 +6,9 @@ description: "If you want to contribute to Firefox, or the core of a new program
 permalink: open-source-101
 tags: [open source, programming]
 image:
-  feature: abstract-6.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: computerguy.jpg
+  credit: ter-burg
+  creditlink: http://www.flickr.com/photos/ter-burg/8969238685/sizes
 comments: true
 ---
 

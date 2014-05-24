@@ -2,26 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Karan Goel</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://karan.github.io/feed.xml" />
-<link rel="alternate" type="text/html" href="http://karan.github.io" />
-<updated>2014-05-23T17:09:30-07:00</updated>
-<id>http://karan.github.io/</id>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2014-05-23T17:15:26-07:00</updated>
+<id>/</id>
 <author>
   <name>Karan Goel</name>
-  <uri>http://karan.github.io/</uri>
+  <uri>/</uri>
   <email>karan@goel.im</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Time Hacking for College Students]]></title>
- <link rel="alternate" type="text/html" href="http://karan.github.io/time-management" />
-  <id>http://karan.github.io/time-management</id>
+ <link rel="alternate" type="text/html" href="/time-management" />
+  <id>/time-management</id>
   <published>2014-05-22T00:17:00Z</published>
   <updated>2014-05-22T00:17:00Z</updated>
   <author>
     <name>Karan Goel</name>
-    <uri>http://karan.github.io</uri>
+    <uri></uri>
     <email>karan@goel.im</email>
   </author>
   <content type="html">&lt;p&gt;Picture this: Full-time student taking full course load, working part time, leading &lt;a href=&quot;https://www.facebook.com/groups/uwhackers/&quot;&gt;a growing club&lt;/a&gt; at his university, actively working on &lt;a href=&quot;https://github.com/karan&quot;&gt;half a dozen software projects&lt;/a&gt; at any given time and still finding time to exercise every other day. All this, without getting burned out.&lt;/p&gt;
@@ -135,19 +135,19 @@
 
 &lt;p&gt;To reiterate, the tactics above may not work for you, they are just references. You need to find what works for you, test, tweak and improve from there.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://karan.github.io/time-management&quot;&gt;Time Hacking for College Students&lt;/a&gt; was originally published by Karan Goel at &lt;a href=&quot;http://karan.github.io&quot;&gt;Karan Goel&lt;/a&gt; on May 22, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/time-management&quot;&gt;Time Hacking for College Students&lt;/a&gt; was originally published by Karan Goel at &lt;a href=&quot;&quot;&gt;Karan Goel&lt;/a&gt; on May 22, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Getting started with open source contributions]]></title>
- <link rel="alternate" type="text/html" href="http://karan.github.io/open-source-101" />
-  <id>http://karan.github.io/github</id>
+ <link rel="alternate" type="text/html" href="/open-source-101" />
+  <id>/github</id>
   <published>2014-04-06T17:00:00Z</published>
   <updated>2014-04-06T17:00:00Z</updated>
   <author>
     <name>Karan Goel</name>
-    <uri>http://karan.github.io</uri>
+    <uri></uri>
     <email>karan@goel.im</email>
   </author>
   <content type="html">&lt;p&gt;The world is moving to open source. From indie developers to multi-billion dollar companies, everyone is making a significant impact on the world by making their software open. If you want to contribute to Firefox, or the core of a new programming language, but are not sure where to start, you start here!&lt;/p&gt;
@@ -270,19 +270,19 @@
 
 &lt;p&gt;If you have any more questions, or suggestions, add them in the comments. I’ll get back to you.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://karan.github.io/open-source-101&quot;&gt;Getting started with open source contributions&lt;/a&gt; was originally published by Karan Goel at &lt;a href=&quot;http://karan.github.io&quot;&gt;Karan Goel&lt;/a&gt; on April 06, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/open-source-101&quot;&gt;Getting started with open source contributions&lt;/a&gt; was originally published by Karan Goel at &lt;a href=&quot;&quot;&gt;Karan Goel&lt;/a&gt; on April 06, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[How do spammers harvest your e-mail address?]]></title>
- <link rel="alternate" type="text/html" href="http://karan.github.io/email-spam" />
-  <id>http://karan.github.io/email-spam</id>
+ <link rel="alternate" type="text/html" href="/email-spam" />
+  <id>/email-spam</id>
   <published>2014-03-26T17:00:00Z</published>
   <updated>2014-03-26T17:00:00Z</updated>
   <author>
     <name>Karan Goel</name>
-    <uri>http://karan.github.io</uri>
+    <uri></uri>
     <email>karan@goel.im</email>
   </author>
   <content type="html">&lt;p&gt;This is an update on the research I did under the guidance of &lt;a href=&quot;http://jeffhuang.com/&quot;&gt;Jeff Huang&lt;/a&gt; (now assistant professor at Brown University) titled &lt;a href=&quot;https://experiment.com/projects/how-do-spammers-harvest-your-e-mail-address&quot;&gt;How do spammers harvest your e-mail address?&lt;/a&gt;.&lt;/p&gt;
@@ -524,26 +524,26 @@
 
 &lt;p&gt;Center For Democracy &amp;amp; Technology, “Why Am I Getting All This Spam?”, 2003&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://karan.github.io/email-spam&quot;&gt;How do spammers harvest your e-mail address?&lt;/a&gt; was originally published by Karan Goel at &lt;a href=&quot;http://karan.github.io&quot;&gt;Karan Goel&lt;/a&gt; on March 26, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/email-spam&quot;&gt;How do spammers harvest your e-mail address?&lt;/a&gt; was originally published by Karan Goel at &lt;a href=&quot;&quot;&gt;Karan Goel&lt;/a&gt; on March 26, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[My year in open source and side projects!]]></title>
- <link rel="alternate" type="text/html" href="http://karan.github.io/2013-open-source" />
-  <id>http://karan.github.io/my-year-in-open-source</id>
+ <link rel="alternate" type="text/html" href="/2013-open-source" />
+  <id>/my-year-in-open-source</id>
   <published>2013-12-31T08:42:00Z</published>
   <updated>2013-12-31T08:42:00Z</updated>
   <author>
     <name>Karan Goel</name>
-    <uri>http://karan.github.io</uri>
+    <uri></uri>
     <email>karan@goel.im</email>
   </author>
   <content type="html">&lt;p&gt;Ok wow. What an year it has been. A lot happened with me in my personal life - both good and bad - but I’ll try to refrain from speaking (or writing, technically) about them here.&lt;/p&gt;
 
 &lt;p&gt;This post is my reflection of my work in open source and side projects in 2013.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://karan.github.io/assets/images/year-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/year-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I joined &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt; about 50 weeks ago, after reading a lot about it over on reddit. But the whole concept of version control made no sense to me at all. Like, what is “&lt;em&gt;distributed&lt;/em&gt; version control”, “who would use it”, “open source, ok cool”. So, naturally, I didn’t use it much.&lt;/p&gt;
 
@@ -569,7 +569,7 @@
 
 &lt;p&gt;Yet Another Learning Tool (YALT) is a lightweight and minimal utility to make it easier for you to remember things. It is a flash-card like system, where you’lll be presented with random questions from selected database. With YALT, you have to spend less time learning more.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://karan.github.io/assets/images/year-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/year-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;YALT, as I call it, was the first serious project I ever worked on. It was my first advent in the world of open source. It was the very first piece of code I put on Github. It was not a unique idea, and definitely not an open-source-worthy implementation. At the time, I was learning Java, and just wanted to make something cool with a minimal GUI. Because, buttons.&lt;/p&gt;
 
@@ -577,7 +577,7 @@
 
 &lt;p&gt;MoodicPlayer, using last.fm API, builds a playlist for users based on their mood.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://karan.github.io/assets/images/year-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/year-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The idea for this app(let) excites many people. As simple as the GUI looks, building the whole app, and getting things to work was painful. I locked myself in a room for 3 days just get the last.fm API auth (which was an alien concept to me) to work.&lt;/p&gt;
 
@@ -585,7 +585,7 @@
 
 &lt;p&gt;&lt;em&gt;Projects&lt;/em&gt; is a list of practical projects that anyone can solve in any programming language. These projects are divided in multiple categories.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://karan.github.io/assets/images/year-4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/year-4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is when things started to get interesting for me. I wanted to learn Python. I did tons of tutorials online, but everyone just taught the basics. I had no idea what I was doing. I realized that I’m not alone in this. There’s other people who miss a better way to learn a language. Hence, this list. I announced it to &lt;a href=&quot;http://www.reddit.com/r/learnpython/comments/1huuqk/im_doing_100_projects_in_python_to_learn_the/&quot;&gt;reddit&lt;/a&gt; after which it just took off. As of today, the repo has 4000+ stars, and over &lt;a href=&quot;https://github.com/karan/Projects-Solutions/graphs/contributors&quot;&gt;40 people&lt;/a&gt; have contributed their own solutions.&lt;/p&gt;
 
@@ -593,7 +593,7 @@
 
 &lt;p&gt;This little script helps migrate an old Reddit account to a new one.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://karan.github.io/assets/images/year-5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/year-5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Because I was learning Python at the time, and we all know how well the language works with the reddit API, I wanted to make something practically usable. Seeing how much throwaway accounts are used there, this was a great thing to make.&lt;/p&gt;
 
@@ -601,7 +601,7 @@
 
 &lt;p&gt;TPB is an unofficial Python API for ThePirateBay. (don’t look at me like that.)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://karan.github.io/assets/images/year-6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/year-6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When I started this project, I was fascinated by the power of having open-everything. What access to data can do. One of the biggest (controversial) websites on the Internet, that runs exactly to take that motto forward, that no good API for developers. I said to myself, well, if no one wants to do it, I’ll do it. The &lt;a href=&quot;http://www.reddit.com/r/programming/comments/1lkg1y/thepiratebay_api_for_python/&quot;&gt;response&lt;/a&gt; &lt;a href=&quot;http://www.reddit.com/r/opensource/comments/1lkfyl/thepiratebay_api_for_python/&quot;&gt;on reddit&lt;/a&gt; is a clear indicator of what people want to do, but can’t because of restrictions on data.&lt;/p&gt;
 
@@ -609,7 +609,7 @@
 
 &lt;p&gt;HackerNews API is an unofficial Python API for HackerNews, and HNify is it’s RESTful port.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://karan.github.io/assets/images/year-7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/year-7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I found it a little ironic that one of the top hacker sites had no open, working API. I took as a learning opportunity to change that. These projects were two of my biggest projects, with a diversity of new concepts and technologies that I had to learn. And &lt;a href=&quot;https://news.ycombinator.com/item?id=6374031&quot;&gt;people&lt;/a&gt; &lt;a href=&quot;http://www.reddit.com/r/flask/comments/1ph746/hnify_api_for_hacker_news_my_first_api_in_flask/&quot;&gt;loved it&lt;/a&gt;.&lt;/p&gt;
 
@@ -667,7 +667,7 @@
 
 &lt;p&gt;&lt;em&gt;This post was hugely inspired by &lt;a href=&quot;http://www.ianww.com/blog/2013/12/31/my-year-in-side-projects/&quot;&gt;Ian Webster’s&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://karan.github.io/2013-open-source&quot;&gt;My year in open source and side projects!&lt;/a&gt; was originally published by Karan Goel at &lt;a href=&quot;http://karan.github.io&quot;&gt;Karan Goel&lt;/a&gt; on December 31, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/2013-open-source&quot;&gt;My year in open source and side projects!&lt;/a&gt; was originally published by Karan Goel at &lt;a href=&quot;&quot;&gt;Karan Goel&lt;/a&gt; on December 31, 2013.&lt;/p&gt;</content>
 </entry>
 
 </feed>
