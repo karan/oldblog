@@ -1,22 +1,71 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
-permalink:        pretty
-
-# Setup
 title:            Karan Goel
-tagline:          'Blog'
-description:      'Thoughts on programming and life.'
+description:      Programming and life
+disqus_shortname: karan-github
+#Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://karan.github.io
-paginate:         5
 
-author:
-  name:           'Karan Goel'
-  url:             http://www.goel.im
-  twitter:         https://twitter.com/TheKaranGoel
-  github:          http://github.com/karan 
+# Owner/author information
+owner:
+  name:           Karan Goel
+  avatar:         avatar.jpg
+  bio:            "Karan Goel is a Computer science student who loves to code and make stuff."
+  email:          karan@goel.im
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        TheKaranGoel
+  facebook:       
+  github:         karan
+  stackexchange:  
+  linkedin:       
+  instagram:      
+  flickr:         
+  tumblr:         
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:   
 
-# Custom vars
-version:          1.0.0
+# Background image to be tiled on all pages
+background: 
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-9509587-21
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Github
+    url: http://github.com/karan
+    external: true
+  - title: Twitter
+    url: http://twitter.com/TheKaranGoel
+    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/Los_Angeles
+future:      true
+highlighter: pygments
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:title/
+
+# Amount of post to show on home page
+paginate: 5
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

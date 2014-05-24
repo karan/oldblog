@@ -1,9 +1,17 @@
 ---
 layout: post
 title:  "How do spammers harvest your e-mail address?"
+description: "Here are the results we got after one year of waiting and after posting email addresses to numerous different types of websites and online services."
 permalink: email-spam
-date:   2014-03-26 17:00:00
+tags: [research, programming]
+image:
+  feature: abstract-6.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+date: 2014-03-26 17:00:00
+comments: true
 ---
+
 
 This is an update on the research I did under the guidance of [Jeff Huang](http://jeffhuang.com/) (now assistant professor at Brown University) titled [How do spammers harvest your e-mail address?](https://experiment.com/projects/how-do-spammers-harvest-your-e-mail-address).
 

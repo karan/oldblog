@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://karan.github.io</loc>
+    </url>
+    
+    
+    <url>
+        <loc>http://karan.github.io/404.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://karan.github.io/feed.xml</loc>
+    </url>
+    
+    <url>
+        <loc>http://karan.github.io/index.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://karan.github.io/posts/</loc>
+    </url>
+    
+    <url>
+        <loc>http://karan.github.io/sitemap.xml</loc>
+    </url>
+    
+    <url>
+        <loc>http://karan.github.io/tags/</loc>
+    </url>
+    
+
+    
+    <url>
+        <loc>http://karan.github.io/time-management</loc>
+    </url>
+    
+    <url>
+        <loc>http://karan.github.io/open-source-101</loc>
+    </url>
+    
+    <url>
+        <loc>http://karan.github.io/email-spam</loc>
+    </url>
+    
+    <url>
+        <loc>http://karan.github.io/2013-open-source</loc>
+    </url>
+    
+</urlset>

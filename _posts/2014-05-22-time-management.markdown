@@ -3,6 +3,13 @@ layout: post
 permalink: time-management
 title:  "Time Hacking for College Students"
 date:   2014-05-22 00:17:00
+description: "I'm often asked by many about how I manage my time, and I find myself repeating the answer. Here’s how to be a highly productive student by hacking your time."
+tags: [open source, programming]
+image:
+  feature: time.jpg
+  credit: debsilver
+  creditlink: https://www.flickr.com/photos/debsilver/102508862
+comments: true
 ---
 
 Picture this: Full-time student taking full course load, working part time, leading [a growing club](https://www.facebook.com/groups/uwhackers/) at his university, actively working on [half a dozen software projects](https://github.com/karan) at any given time and still finding time to exercise every other day. All this, without getting burned out.
@@ -12,9 +19,6 @@ Seems like impossible, doesn't it? That's my life in under 50 words. I'm often a
 *Note: This won't be a long post (trying not be ironic here), but I'll try to get my message across. There is no particular order for the tips here, but I've tried to make the order slightly meaningful. If you find anything ambiguous or wrong, [get in touch](http://twitter.com/TheKaranGoel).*
 
 ### Set the alarm for an hour early - even on weekends
-
-![](https://farm1.staticflickr.com/34/102508862_50d9b10884_b_d.jpg)
-[photos/debsilver/102508862](https://www.flickr.com/photos/debsilver/102508862)
 
 This is what I have recently started doing - I used to wake up at around 7am until a few months ago, but now I wake up at 6 in the morning. Yes, for college students, this is the "holy-shit-it's-too-early" time, but for me, it's the time when I am most productive. I have found that waking up early, washing up, and then working on personal projects gives me the most productive hour of the day.
 

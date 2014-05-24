@@ -1,8 +1,15 @@
 ---
 layout: post
-permalink: open-source-101
 title:  "Getting started with open source contributions"
 date:   2014-04-06 17:00:00
+description: "If you want to contribute to Firefox, or the core of a new programming language, but are not sure where to start, you start here."
+permalink: open-source-101
+tags: [open source, programming]
+image:
+  feature: abstract-6.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+comments: true
 ---
 
 The world is moving to open source. From indie developers to multi-billion dollar companies, everyone is making a significant impact on the world by making their software open. If you want to contribute to Firefox, or the core of a new programming language, but are not sure where to start, you start here!

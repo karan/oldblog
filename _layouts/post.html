@@ -1,55 +1,91 @@
----
-layout: default
----
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
 
-<div class="post">
-  <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
-</div>
+<body id="post" {% if page.image.feature %}class="feature"{% endif %}>
 
-<div id="post-end">
-  <a href="https://twitter.com/share" class="twitter-share-button" data-via="TheKaranGoel" data-size="large">Tweet</a>
-  <a href="https://twitter.com/TheKaranGoel" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @TheKaranGoel</a>
+{% include browser-upgrade.html %}
+{% include navigation.html %}
 
-  <form id="mc-embedded-subscribe-form" action="http://goel.us3.list-manage.com/subscribe/post?u=e6728b4299cef4104e10240b9&amp;id=7fd1fe0c0d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate" class="validate">
-    <h4>Stay tuned about future posts and projects.</h4>
-    <input id="mce-EMAIL" type="email" value="" name="EMAIL" required="required" placeholder="your@email.com" class="email"/>
-    <input id="mc-embedded-subscribe" type="submit" value="Subscribe" name="subscribe" class="button"/>
-    <div style="position: absolute; left: -5000px;">
-      <input type="text" name="b_e6728b4299cef4104e10240b9_7fd1fe0c0d" value=""/>
-    </div>
-  </form>
-</div>
+{% if page.image.feature %}
+<div class="entry-header">
+  {% if page.image.credit %}<div class="image-credit">Image source: {% if page.image.creditlink %}<a href="{{ page.image.creditlink }}">{% endif %}{{ page.image.credit }}{% if page.image.creditlink %}</a>{% endif %}</div><!-- /.image-credit -->{% endif %}
+  <div class="entry-image">
+    <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+{% endif %}
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'karan-github'; // required: replace example with your forum shortname
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        {% if page.link %}
+          <h1 class="entry-title"><a href="{{ page.link }}">{{ page.title }}</a></h1>
+        {% else %}
+          <h1 class="entry-title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+        {% endif %}
+        <h2>{{ page.date | date: "%B %d, %Y" }}</h2>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      {{ content }}
+      <footer class="entry-meta">
+        <div id="post-end">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="TheKaranGoel" data-size="large">Tweet</a>
+          <a href="https://twitter.com/TheKaranGoel" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @TheKaranGoel</a>
+          
+          <form id="mc-embedded-subscribe-form" action="http://goel.us3.list-manage.com/subscribe/post?u=e6728b4299cef4104e10240b9&amp;id=7fd1fe0c0d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate" class="validate">
+            <h4>Stay tuned about future posts and projects.</h4>
+            <input id="mce-EMAIL" type="email" value="" name="EMAIL" required="required" placeholder="your@email.com" class="email"/>
+            <input id="mc-embedded-subscribe" type="submit" value="Subscribe" name="subscribe" class="button"/>
+            <div style="position: absolute; left: -5000px;">
+              <input type="text" name="b_e6728b4299cef4104e10240b9_7fd1fe0c0d" value=""/>
+            </div>
+          </form>
+        </div>
 
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}" class="tag">{{ tag }}</a>{% unless forloop.last %}{% endunless %}{% endfor %}</span>
 
+      </footer>
+    </div><!-- /.entry-content -->
+    {% if site.disqus_shortname and page.comments %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+    {% if site.related_posts.size %}
+    <div class="read-more">
+      {% for post in site.related_posts limit:1 %}
+        <div class="read-more-header">
+          <a href="{{ site.url }}{{ page.previous.url }}" class="read-more-btn">Read More</a>
+        </div><!-- /.read-more-header -->
+        <div class="read-more-content">
+          <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+          <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 140 }}&hellip;{% endif %} <a href="{{ site.url }}{{ post.url }}">Continue reading</a></p>
+        </div><!-- /.read-more-content -->
+      {% endfor %}
+      <div class="read-more-list">
+        {% for post in site.related_posts limit:2 offset:1 %}
+          <div class="list-item">
+            <h4><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
+            <span>Published on {{ post.date | date: "%B %d, %Y" }}</span>
+          </div><!-- /.list-item -->
+        {% endfor %}
+      </div><!-- /.read-more-list -->
+      {% endif %}
+    </div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
 
-<!-- <div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div> -->
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    {% include footer.html %}
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+{% include scripts.html %}	        
+
+</body>
+</html>

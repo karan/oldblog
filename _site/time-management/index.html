@@ -1,166 +1,185 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Time Hacking for College Students &#8211; Karan Goel</title>
+<meta name="description" content="I'm often asked by many about how I manage my time, and I find myself repeating the answer. Here’s how to be a highly productive student by hacking your time.">
+<meta name="keywords" content="open source, programming">
 
-  <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://karan.github.io/images/time.jpg">
 
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="twitter:title" content="Time Hacking for College Students">
+<meta name="twitter:description" content="I'm often asked by many about how I manage my time, and I find myself repeating the answer. Here’s how to be a highly productive student by hacking your time.">
+<meta name="twitter:creator" content="@TheKaranGoel">
 
-  <title>
-    
-      Time Hacking for College Students &middot; Karan Goel
-    
-  </title>
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Time Hacking for College Students">
+<meta property="og:description" content="I'm often asked by many about how I manage my time, and I find myself repeating the answer. Here’s how to be a highly productive student by hacking your time.">
+<meta property="og:url" content="http://karan.github.io/time-management">
+<meta property="og:site_name" content="Karan Goel">
 
-  <!-- Google Analytics Tracking code -->
-  <script type="text/javascript">
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-9509587-21', 'karan.github.io');
-    ga('send', 'pageview');
-  </script>
 
-  <!-- Twitter code -->
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/poole.css">
-  <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/lanyon.css">
-  <link rel="stylesheet" href="/public/css/custom.css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
 
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/public/favicon.ico">
 
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+<link rel="canonical" href="http://karan.github.io/time-management">
+<link href="http://karan.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Karan Goel Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://karan.github.io/assets/css/main.min.css">
+<!-- Webfonts -->
+<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://karan.github.io/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://karan.github.io/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://karan.github.io/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://karan.github.io/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://karan.github.io/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://karan.github.io/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://karan.github.io/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
 </head>
 
+<body id="post" class="feature">
 
-  <body>
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://karan.github.io">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="http://karan.github.io/images/avatar.jpg" alt="Karan Goel photo" class="author-photo">
+					<h4>Karan Goel</h4>
+					<p>Karan Goel is a Computer science student who loves to code and make stuff.</p>
+				</li>
+				<li><a href="http://www.goel.im" target="_blank">Learn More</a></li>
+				<li>
+					<a href="mailto:karan@goel.im"><i class="icon-envelope"></i> Email</a>
+				</li>
+				<li>
+					<a href="http://twitter.com/TheKaranGoel"><i class="icon-twitter"></i> Twitter</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="http://github.com/karan"><i class="icon-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">Posts</a>
+			<ul class="dl-submenu">
+				<li><a href="http://karan.github.io/posts/">All Posts</a></li>
+				<li><a href="http://karan.github.io/tags/">All Tags</a></li>
+			</ul>
+		</li>
+		<li><a href="http://github.com/karan" target="_blank">Github</a></li><li><a href="http://twitter.com/TheKaranGoel" target="_blank">Twitter</a></li>
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
 
-    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <div><img style="margin:20px auto;border-radius:50%;" style="margin-left:auto;margin-right:auto;" src="/assets/images/me.jpg" width="200" class="me"/></div>
-    <!-- <p>Thoughts on programming and life.</p> -->
-  </div>
 
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="/"><i class="fa fa-2x fa-home"></i>Home</a>
-    <a class="sidebar-nav-item" href="http://www.goel.im" target="_blank"><i class="fa fa-user fa-2x"></i>About</a>
+<div class="entry-header">
+  <div class="image-credit">Image source: <a href="https://www.flickr.com/photos/debsilver/102508862">debsilver</a></div><!-- /.image-credit -->
+  <div class="entry-image">
+    <img src="http://karan.github.io/images/time.jpg" alt="Time Hacking for College Students">
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
 
-    
 
-    
-    
-      
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
         
-      
-    
-      
+          <h1 class="entry-title"><a href="http://karan.github.io/time-management" rel="bookmark" title="Time Hacking for College Students">Time Hacking for College Students</a></h1>
         
-          <a class="sidebar-nav-item" href="/archive/"><i class="fa fa-archive fa-2x"></i>Archive</a>
-        
-      
-    
-      
-    
-      
-        
-      
-    
+        <h2>May 22, 2014</h2>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>Picture this: Full-time student taking full course load, working part time, leading <a href="https://www.facebook.com/groups/uwhackers/">a growing club</a> at his university, actively working on <a href="https://github.com/karan">half a dozen software projects</a> at any given time and still finding time to exercise every other day. All this, without getting burned out.</p>
 
-    <a class="sidebar-nav-item" href="http://github.com/karan" target="_blank"><i class="fa fa-github fa-2x"></i>Github</a>
-    <a class="sidebar-nav-item" href="https://twitter.com/TheKaranGoel" target="_blank"><i class="fa fa-twitter fa-2x"></i>Twitter</a>
-  </nav>
+<p>Seems like impossible, doesn’t it? That’s my life in under 50 words. I’m often asked by many about how I manage my time, and I find myself repeating the answer. So, what’s my secret? Here’s how to be a highly productive student by hacking your time:</p>
 
-  <div class="sidebar-item">
-    <p>
-      &copy; 2014. All rights reserved.
-    </p>
-  </div>
-</div>
+<p><em>Note: This won’t be a long post (trying not be ironic here), but I’ll try to get my message across. There is no particular order for the tips here, but I’ve tried to make the order slightly meaningful. If you find anything ambiguous or wrong, <a href="http://twitter.com/TheKaranGoel">get in touch</a>.</em></p>
 
+<h3 id="set-the-alarm-for-an-hour-early---even-on-weekends">Set the alarm for an hour early - even on weekends</h3>
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="/" title="Home">Karan Goel</a>
-            <small>Blog</small>
-          </h3>
-        </div>
-      </div>
-
-      <div class="container content">
-        <div class="post">
-  <h1 class="post-title"><a href="/time-management">Time Hacking for College Students</a></h1>
-  <span class="post-date">22 May 2014</span>
-  <p>Picture this: Full-time student taking full course load, working part time, leading <a href="https://www.facebook.com/groups/uwhackers/">a growing club</a> at his university, actively working on <a href="https://github.com/karan">half a dozen software projects</a> at any given time and still finding time to exercise every other day. All this, without getting burned out.</p>
-
-<p>Seems like impossible, doesn&#39;t it? That&#39;s my life in under 50 words. I&#39;m often asked by many about how I manage my time, and I find myself repeating the answer. So, what’s my secret? Here’s how to be a highly productive student by hacking your time:</p>
-
-<p><em>Note: This won&#39;t be a long post (trying not be ironic here), but I&#39;ll try to get my message across. There is no particular order for the tips here, but I&#39;ve tried to make the order slightly meaningful. If you find anything ambiguous or wrong, <a href="http://twitter.com/TheKaranGoel">get in touch</a>.</em></p>
-
-<h3>Set the alarm for an hour early - even on weekends</h3>
-
-<p><img src="https://farm1.staticflickr.com/34/102508862_50d9b10884_b_d.jpg" alt="">
-<a href="https://www.flickr.com/photos/debsilver/102508862">photos/debsilver/102508862</a></p>
-
-<p>This is what I have recently started doing - I used to wake up at around 7am until a few months ago, but now I wake up at 6 in the morning. Yes, for college students, this is the &quot;holy-shit-it&#39;s-too-early&quot; time, but for me, it&#39;s the time when I am most productive. I have found that waking up early, washing up, and then working on personal projects gives me the most productive hour of the day.</p>
+<p>This is what I have recently started doing - I used to wake up at around 7am until a few months ago, but now I wake up at 6 in the morning. Yes, for college students, this is the “holy-shit-it’s-too-early” time, but for me, it’s the time when I am most productive. I have found that waking up early, washing up, and then working on personal projects gives me the most productive hour of the day.</p>
 
 <p>The main point here however is to be consistent - sure if you pulled an all-nighter then you deserve to sleep, otherwise, keep your sleeping schedule consistent throughout the week (that includes weekends).</p>
 
 <p>I highly recommend that you try this for yourself and find your perfect time.</p>
 
-<h3>Don&#39;t feel guilty about lost time <img src="https://farm2.staticflickr.com/1209/1392710669_31e7e13889_q_d.jpg" align="right"></h3>
+<h3 id="dont-feel-guilty-about-lost-time-img-srchttpsfarm2staticflickrcom1209139271066931e7e13889qdjpg-alignright">Don’t feel guilty about lost time <img src="https://farm2.staticflickr.com/1209/1392710669_31e7e13889_q_d.jpg" align="right" /></h3>
 
-<p>Seriously. Don&#39;t. You were partying till 3am last Friday and had a bad hangover the next day. It&#39;s done. Forget about it. Focus on today. That&#39;s what matters now.</p>
+<p>Seriously. Don’t. You were partying till 3am last Friday and had a bad hangover the next day. It’s done. Forget about it. Focus on today. That’s what matters now.</p>
 
-<h3>Set small goals, and stick to them</h3>
+<h3 id="set-small-goals-and-stick-to-them">Set small goals, and stick to them</h3>
 
-<p>Until end of my freshman year, I just used to do whatever I wanted to. I did not really have a direction - I knew what I wanted, but didn&#39;t know how. Then I set micro-goals for myself:</p>
+<p>Until end of my freshman year, I just used to do whatever I wanted to. I did not really have a direction - I knew what I wanted, but didn’t know how. Then I set micro-goals for myself:</p>
 
 <ul>
-<li>I&#39;ll write at least 1 Python script a day for a month</li>
-<li>I&#39;ll talk to at least 1 new student every day in my lecture in the first two weeks</li>
-<li>I&#39;ll run at least 1 mile every other day for three months</li>
+  <li>I’ll write at least 1 Python script a day for a month</li>
+  <li>I’ll talk to at least 1 new student every day in my lecture in the first two weeks</li>
+  <li>I’ll run at least 1 mile every other day for three months</li>
 </ul>
 
-<p>These small goals became my pathways. And trust me, these <strong>small goals have turned into huge life events</strong>. My coding skills have improved significantly, I&#39;m able to learn new things really fast, I&#39;m a much better listener and conversationist (still improving, though), and I recently ran a 5k.</p>
+<p>These small goals became my pathways. And trust me, these <strong>small goals have turned into huge life events</strong>. My coding skills have improved significantly, I’m able to learn new things really fast, I’m a much better listener and conversationist (still improving, though), and I recently ran a 5k.</p>
 
 <p>The trick here is two-part:</p>
 
 <ol>
-<li>Set <strong>specific, achievable goals</strong>: don&#39;t set goals that you know cannot achieve. Be realistic, you know what you are capable of.</li>
-<li><strong>Stick to the goals</strong>: This becomes important once you are so close to your goal. &quot;I have 27 days of commits. If I stop today, I&#39;ll have to start from 0.&quot;</li>
+  <li>Set <strong>specific, achievable goals</strong>: don’t set goals that you know cannot achieve. Be realistic, you know what you are capable of.</li>
+  <li><strong>Stick to the goals</strong>: This becomes important once you are so close to your goal. “I have 27 days of commits. If I stop today, I’ll have to start from 0.”</li>
 </ol>
 
-<p>I&#39;ll say it again, being consistent with your goals rewards you greatly.</p>
+<p>I’ll say it again, being consistent with your goals rewards you greatly.</p>
 
-<h3>Exercising regularly to break out</h3>
+<h3 id="exercising-regularly-to-break-out">Exercising regularly to break out</h3>
 
-<p><img src="https://farm5.staticflickr.com/4082/4782840214_a6e524d4eb_b.jpg" alt=""></p>
+<p><img src="https://farm5.staticflickr.com/4082/4782840214_a6e524d4eb_b.jpg" alt="" /></p>
 
-<p>I&#39;d been thinking of finding time to exercise since freshman year but just kept on avoiding it. Sometimes I was so busy that I used to spend almost 12 hours each day sitting in labs and working on my homework. But now I forced myself to run every other day - no matter how, but I forced myself to take time out.</p>
+<p>I’d been thinking of finding time to exercise since freshman year but just kept on avoiding it. Sometimes I was so busy that I used to spend almost 12 hours each day sitting in labs and working on my homework. But now I forced myself to run every other day - no matter how, but I forced myself to take time out.</p>
 
-<p>What I have found is that <strong>physical activity can greatly improve your productivity</strong> by giving you a break from the usual, and <a href="http://www.sciencedaily.com/releases/2011/09/110906121011.htm">some research</a> vouches for this. Go spend an hour at your gym at your school, and maybe, like me, you&#39;ll run into an old friend you haven&#39;t seen for months.</p>
+<p>What I have found is that <strong>physical activity can greatly improve your productivity</strong> by giving you a break from the usual, and <a href="http://www.sciencedaily.com/releases/2011/09/110906121011.htm">some research</a> vouches for this. Go spend an hour at your gym at your school, and maybe, like me, you’ll run into an old friend you haven’t seen for months.</p>
 
-<h3>Automate everything</h3>
+<h3 id="automate-everything">Automate everything</h3>
 
 <p><strong>Step 1:</strong> Learn to code</p>
 
@@ -172,75 +191,132 @@
 
 <p>There are tasks you do regularly that take a lot of time. Stop wasting time there. Automate those things (or outsource them if you can). Read <a href="http://fourhourworkweek.com/">The 4-Hour Workweek</a>.</p>
 
-<h3>Maintain a to-do list</h3>
+<h3 id="maintain-a-to-do-list">Maintain a to-do list</h3>
 
 <p>I use <a href="https://www.wunderlist.com/en/">Wunderlist</a> - and love it. Whenever I get something to do, I instantly add it to my list. I also maintain categories for easy management and classification of my todos: eg, by course name, by priority etc. (Read next point)</p>
 
-<h3>If a task will take less than 2 minutes, do it now</h3>
+<h3 id="if-a-task-will-take-less-than-2-minutes-do-it-now">If a task will take less than 2 minutes, do it now</h3>
 
-<p>The only exception to the previous rule is this - if I get something to do that will take me a minute or two, I complete it at the same moment. This keeps me from flooding my to-do list with micro-tasks, and doesn&#39;t give me a false sense of being busy (which humans inherently love).</p>
+<p>The only exception to the previous rule is this - if I get something to do that will take me a minute or two, I complete it at the same moment. This keeps me from flooding my to-do list with micro-tasks, and doesn’t give me a false sense of being busy (which humans inherently love).</p>
 
-<h3>Prioritize (!)</h3>
+<h3 id="prioritize-">Prioritize (!)</h3>
 
-<p><img src="https://farm6.staticflickr.com/5495/10448525833_8e970219da_z_d.jpg" alt=""></p>
+<p><img src="https://farm6.staticflickr.com/5495/10448525833_8e970219da_z_d.jpg" alt="" /></p>
 
-<p>One of the most crucial parts about having a to-do list is to know how to prioritize your tasks. Like most things in life, sadly there&#39;s no one-size-fits-all for your tasks. Know what you have to do now, or today, or this week, and what happens if you miss the deadline. Learn to think in a pro-cons way and to weigh each side. Learn to take decisions for your life.</p>
+<p>One of the most crucial parts about having a to-do list is to know how to prioritize your tasks. Like most things in life, sadly there’s no one-size-fits-all for your tasks. Know what you have to do now, or today, or this week, and what happens if you miss the deadline. Learn to think in a pro-cons way and to weigh each side. Learn to take decisions for your life.</p>
 
-<h3>Maintain a calendar</h3>
+<h3 id="maintain-a-calendar">Maintain a calendar</h3>
 
 <p>Kind of similar to maintaining a to-do list - any event, meeting, appointment, class goes into my calendar. I set appropriate notifications and reminders and make sure to see the calendar every morning to prepare myself for the day.</p>
 
-<h3>Inbox zero</h3>
+<h3 id="inbox-zero">Inbox zero</h3>
 
-<p><img src="https://farm4.staticflickr.com/3758/9011116378_32e56983e3_b.jpg" alt=""></p>
+<p><img src="https://farm4.staticflickr.com/3758/9011116378_32e56983e3_b.jpg" alt="" /></p>
 
 <p>A few months ago, <a href="http://klinger.io/post/71640845938/dont-drown-in-email-how-to-use-gmail-more">I started doing this</a> - highly recommended. At any given point, I have a total of 0 emails in my inbox. Whenever I get any new mail, I process it by either replying, or delegating, or archiving, or deleting.</p>
 
-<h3>Don&#39;t hang out with people who don’t respect your time</h3>
+<h3 id="dont-hang-out-with-people-who-dont-respect-your-time">Don’t hang out with people who don’t respect your time</h3>
 
-<p><img src="https://farm4.staticflickr.com/3717/8785443736_7bea754490_b.jpg" alt=""></p>
+<p><img src="https://farm4.staticflickr.com/3717/8785443736_7bea754490_b.jpg" alt="" /></p>
 
 <p>Ditch people who:</p>
 
 <ol>
-<li>Force you to &quot;have fun&quot; when you really don&#39;t want to</li>
-<li>Don&#39;t value or respect your work</li>
-<li>Are always sad or otherwise negative</li>
+  <li>Force you to “have fun” when you really don’t want to</li>
+  <li>Don’t value or respect your work</li>
+  <li>Are always sad or otherwise negative</li>
 </ol>
 
-<h3>Keep learning new skills</h3>
+<h3 id="keep-learning-new-skills">Keep learning new skills</h3>
 
-<p>Now that you have a lot of free time, please don&#39;t spend it all on playing video games or watching TV. Keep learning. Learn new things. Make sure you don&#39;t get rusty.</p>
+<p>Now that you have a lot of free time, please don’t spend it all on playing video games or watching TV. Keep learning. Learn new things. Make sure you don’t get rusty.</p>
 
-<h3>Have fun</h3>
+<h3 id="have-fun">Have fun</h3>
 
-<p>Life isn&#39;t just about finding ways to be more productive, or optimization of daily tasks. It&#39;s ok to take a break. Go for a walk once in a while. Go to a rave every couple months to vent out. Know when you are burned out and need to get away from everything and then actually do it. Your body and your mind will thank you.</p>
+<p>Life isn’t just about finding ways to be more productive, or optimization of daily tasks. It’s ok to take a break. Go for a walk once in a while. Go to a rave every couple months to vent out. Know when you are burned out and need to get away from everything and then actually do it. Your body and your mind will thank you.</p>
 
-<h2>Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 
-<p>The number one reason why I am able to do so much and still have some free time for myself is because I do what I love. It&#39;s not something that some teacher or parent wants me to do.</p>
+<p>The number one reason why I am able to do so much and still have some free time for myself is because I do what I love. It’s not something that some teacher or parent wants me to do.</p>
 
-<p>Moreover, my friends are the best people on the planet - I talk to them about my studies, work and projects and often collect feedback. They talk about theirs&#39; as well. Most of us work almost all the time, and it&#39;s fun.</p>
+<p>Moreover, my friends are the best people on the planet - I talk to them about my studies, work and projects and often collect feedback. They talk about theirs’ as well. Most of us work almost all the time, and it’s fun.</p>
 
 <p>To reiterate, the tactics above may not work for you, they are just references. You need to find what works for you, test, tweak and improve from there.</p>
 
-</div>
+      <footer class="entry-meta">
+        <div id="post-end">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="TheKaranGoel" data-size="large">Tweet</a>
+          <a href="https://twitter.com/TheKaranGoel" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @TheKaranGoel</a>
+          
+          <form id="mc-embedded-subscribe-form" action="http://goel.us3.list-manage.com/subscribe/post?u=e6728b4299cef4104e10240b9&amp;id=7fd1fe0c0d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate" class="validate">
+            <h4>Stay tuned about future posts and projects.</h4>
+            <input id="mce-EMAIL" type="email" value="" name="EMAIL" required="required" placeholder="your@email.com" class="email"/>
+            <input id="mc-embedded-subscribe" type="submit" value="Subscribe" name="subscribe" class="button"/>
+            <div style="position: absolute; left: -5000px;">
+              <input type="text" name="b_e6728b4299cef4104e10240b9_7fd1fe0c0d" value=""/>
+            </div>
+          </form>
+        </div>
 
-<div id="post-end">
-  <a href="https://twitter.com/share" class="twitter-share-button" data-via="TheKaranGoel" data-size="large">Tweet</a>
-  <a href="https://twitter.com/TheKaranGoel" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @TheKaranGoel</a>
+        <span class="entry-tags"><a href="http://karan.github.io/tags/#open source" title="Pages tagged open source" class="tag">open source</a><a href="http://karan.github.io/tags/#programming" title="Pages tagged programming" class="tag">programming</a></span>
 
-  <form id="mc-embedded-subscribe-form" action="http://goel.us3.list-manage.com/subscribe/post?u=e6728b4299cef4104e10240b9&amp;id=7fd1fe0c0d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate" class="validate">
-    <h4>Stay tuned about future posts and projects.</h4>
-    <input id="mce-EMAIL" type="email" value="" name="EMAIL" required="required" placeholder="your@email.com" class="email"/>
-    <input id="mc-embedded-subscribe" type="submit" value="Subscribe" name="subscribe" class="button"/>
-    <div style="position: absolute; left: -5000px;">
-      <input type="text" name="b_e6728b4299cef4104e10240b9_7fd1fe0c0d" value=""/>
-    </div>
-  </form>
-</div>
+      </footer>
+    </div><!-- /.entry-content -->
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    
+    <div class="read-more">
+      
+        <div class="read-more-header">
+          <a href="http://karan.github.io/open-source-101" class="read-more-btn">Read More</a>
+        </div><!-- /.read-more-header -->
+        <div class="read-more-content">
+          <h3><a href="http://karan.github.io/open-source-101" title="Getting started with open source contributions">Getting started with open source contributions</a></h3>
+          <p>If you want to contribute to Firefox, or the core of a new programming language, but are not sure where to start, you start here. <a href="http://karan.github.io/open-source-101">Continue reading</a></p>
+        </div><!-- /.read-more-content -->
+      
+      <div class="read-more-list">
+        
+          <div class="list-item">
+            <h4><a href="http://karan.github.io/email-spam" title="How do spammers harvest your e-mail address?">How do spammers harvest your e-mail address?</a></h4>
+            <span>Published on March 26, 2014</span>
+          </div><!-- /.list-item -->
+        
+          <div class="list-item">
+            <h4><a href="http://karan.github.io/2013-open-source" title="My year in open source and side projects!">My year in open source and side projects!</a></h4>
+            <span>Published on December 31, 2013</span>
+          </div><!-- /.list-item -->
+        
+      </div><!-- /.read-more-list -->
+      
+    </div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
 
-<div id="disqus_thread"></div>
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2014 Karan Goel. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/hpstr/">HPSTR Theme</a>.</span>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://karan.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://karan.github.io/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-9509587-21', 'auto');  
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'karan-github'; // required: replace example with your forum shortname
@@ -251,49 +327,17 @@
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>	        
 
-
-<!-- <div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    
-      <li>
-        <h3>
-          <a href="/open-source-101">
-            Getting started with open source contributions
-            <small>06 Apr 2014</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/email-spam">
-            How do spammers harvest your e-mail address?
-            <small>26 Mar 2014</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/2013-open-source">
-            My year in open source and side projects!
-            <small>31 Dec 2013</small>
-          </a>
-        </h3>
-      </li>
-    
-  </ul>
-</div> -->
-
-      </div>
-    </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-  </body>
+</body>
 </html>
