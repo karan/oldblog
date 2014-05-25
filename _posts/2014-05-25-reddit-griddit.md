@@ -14,7 +14,7 @@ This isn't a post about [Reddit's flawed algorithm](http://technotes.iangreenlea
 
 ![](http://i.imgur.com/8D2H0RB.jpg?2)
 
-As it is right now, Reddit favors text more than any other form of content. Even for image-based subreddits (like r/cats, r/pics), the primary emphasis is on the submission title or caption and not on the image itself. All you see if a small thumbnail of the image itself. Most of the times, a crappy image wil hit the frontpage based on a clever title. **That is the flaw** - judging an image based on its title.
+As it is right now, Reddit favors text more than any other form of content. Even for image-based subreddits (like r/cats, r/pics), the primary emphasis is on the submission title or caption and not on the image itself. All you see if a small thumbnail of the image itself. Most of the times, a crappy image will hit the frontpage based on a clever title. **That is the flaw** - judging an image based on its title.
 
 As such, it isn't very hard to garner tons of karma with almost no effort:
 
