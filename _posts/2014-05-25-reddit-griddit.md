@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: reddit-griddit
+permalink: reddit-is-flawed
 title:  "Reddit is Flawed - My Attempt at Fixing it"
 date:   2014-05-25 00:17:00
 description: "Reddit's voting based system works for only a part of the site. Reddit favors captions and titles over the images themseves. I attempted to fix that."
@@ -29,11 +29,13 @@ But wait, there's more: The basic principles of web design suggest that to give 
 
 ### So what should happen? How can this be fixed?
 
-I think it's not something that the community can fix by themselves - it's a problem with the platform. Reddit is inherently built to be a platform to support discussions about a central topic. This, however, doesn't hold true so much for images. People upvote an image if they like. There's hardly ever any scope for some meaningful discussion there.
+I think it's not something that the community can fix by themselves - it's a problem with the platform. Reddit is inherently built to be a platform to support discussions about a central topic. This, however, doesn't hold true so much for images. People should upvote an image (memes, gifs) if they like it. There's hardly ever any scope for some meaningful discussion there.
 
 So here's what I suggest: strip everything from image-based subreddits but the images themselves. I took some time to [prototype](http://karan.github.io/griddit) this:
 
 [![](https://raw.githubusercontent.com/karan/griddit/gh-pages/screen.jpg)](http://karan.github.io/griddit)
+
+The basic idea is the same - share pictures. Currently, the app pulls images from the subreddit you search for, and displays them in a more pleasant and user-friendly way.
 
 Some things I'd like you to notice:
 
@@ -45,6 +47,7 @@ Now obviosuly this isn't a perfect prototype. What's missing is:
 
 1. No upvoting. I think it's important to have voting feature embedded in each image block. I didn't do this because this add more complexity than I wanted to have in a weekend project.
 2. Performance issues. Imagine loading 20 high resolution images at the same time. On an average system, your browser would crap its pants. I've done some stuff to make *griddit* very efficient and fast, but obviously there's more that can be done.
+3. No support for albums for now.
 
 ## Conclusion
 

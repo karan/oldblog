@@ -22,14 +22,14 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Reddit is Flawed - My Attempt at Fixing it">
 <meta property="og:description" content="Reddit's voting based system works for only a part of the site. Reddit favors captions and titles over the images themseves. I attempted to fix that.">
-<meta property="og:url" content="http://localhost:4000/reddit-griddit">
+<meta property="og:url" content="http://localhost:4000/reddit-is-flawed">
 <meta property="og:site_name" content="Karan Goel">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/reddit-griddit">
+<link rel="canonical" href="http://localhost:4000/reddit-is-flawed">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Karan Goel Feed">
 
 
@@ -126,7 +126,7 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="http://localhost:4000/reddit-griddit" rel="bookmark" title="Reddit is Flawed - My Attempt at Fixing it">Reddit is Flawed - My Attempt at Fixing it</a></h1>
+          <h1 class="entry-title"><a href="http://localhost:4000/reddit-is-flawed" rel="bookmark" title="Reddit is Flawed - My Attempt at Fixing it">Reddit is Flawed - My Attempt at Fixing it</a></h1>
         
         <h2>May 25, 2014</h2>
       </div><!-- /.header-title-wrap -->
@@ -153,11 +153,13 @@
 
 <h3 id="so-what-should-happen-how-can-this-be-fixed">So what should happen? How can this be fixed?</h3>
 
-<p>I think it’s not something that the community can fix by themselves - it’s a problem with the platform. Reddit is inherently built to be a platform to support discussions about a central topic. This, however, doesn’t hold true so much for images. People upvote an image if they like. There’s hardly ever any scope for some meaningful discussion there.</p>
+<p>I think it’s not something that the community can fix by themselves - it’s a problem with the platform. Reddit is inherently built to be a platform to support discussions about a central topic. This, however, doesn’t hold true so much for images. People should upvote an image (memes, gifs) if they like it. There’s hardly ever any scope for some meaningful discussion there.</p>
 
 <p>So here’s what I suggest: strip everything from image-based subreddits but the images themselves. I took some time to <a href="http://karan.github.io/griddit">prototype</a> this:</p>
 
 <p><a href="http://karan.github.io/griddit"><img src="https://raw.githubusercontent.com/karan/griddit/gh-pages/screen.jpg" alt="" /></a></p>
+
+<p>The basic idea is the same - share pictures. Currently, the app pulls images from the subreddit you search for, and displays them in a more pleasant and user-friendly way.</p>
 
 <p>Some things I’d like you to notice:</p>
 
@@ -172,6 +174,7 @@
 <ol>
   <li>No upvoting. I think it’s important to have voting feature embedded in each image block. I didn’t do this because this add more complexity than I wanted to have in a weekend project.</li>
   <li>Performance issues. Imagine loading 20 high resolution images at the same time. On an average system, your browser would crap its pants. I’ve done some stuff to make <em>griddit</em> very efficient and fast, but obviously there’s more that can be done.</li>
+  <li>No support for albums for now.</li>
 </ol>
 
 <h2 id="conclusion">Conclusion</h2>

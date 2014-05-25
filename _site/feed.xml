@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2014-05-25T12:01:01-07:00</updated>
+<updated>2014-05-25T12:11:50-07:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Karan Goel</name>
@@ -15,7 +15,7 @@
 
 <entry>
   <title type="html"><![CDATA[Reddit is Flawed - My Attempt at Fixing it]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/reddit-griddit" />
+ <link rel="alternate" type="text/html" href="http://localhost:4000/reddit-is-flawed" />
   <id>http://localhost:4000/reddit-griddit</id>
   <published>2014-05-25T00:17:00Z</published>
   <updated>2014-05-25T00:17:00Z</updated>
@@ -45,11 +45,13 @@
 
 &lt;h3 id=&quot;so-what-should-happen-how-can-this-be-fixed&quot;&gt;So what should happen? How can this be fixed?&lt;/h3&gt;
 
-&lt;p&gt;I think it’s not something that the community can fix by themselves - it’s a problem with the platform. Reddit is inherently built to be a platform to support discussions about a central topic. This, however, doesn’t hold true so much for images. People upvote an image if they like. There’s hardly ever any scope for some meaningful discussion there.&lt;/p&gt;
+&lt;p&gt;I think it’s not something that the community can fix by themselves - it’s a problem with the platform. Reddit is inherently built to be a platform to support discussions about a central topic. This, however, doesn’t hold true so much for images. People should upvote an image (memes, gifs) if they like it. There’s hardly ever any scope for some meaningful discussion there.&lt;/p&gt;
 
 &lt;p&gt;So here’s what I suggest: strip everything from image-based subreddits but the images themselves. I took some time to &lt;a href=&quot;http://karan.github.io/griddit&quot;&gt;prototype&lt;/a&gt; this:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://karan.github.io/griddit&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/karan/griddit/gh-pages/screen.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The basic idea is the same - share pictures. Currently, the app pulls images from the subreddit you search for, and displays them in a more pleasant and user-friendly way.&lt;/p&gt;
 
 &lt;p&gt;Some things I’d like you to notice:&lt;/p&gt;
 
@@ -64,6 +66,7 @@
 &lt;ol&gt;
   &lt;li&gt;No upvoting. I think it’s important to have voting feature embedded in each image block. I didn’t do this because this add more complexity than I wanted to have in a weekend project.&lt;/li&gt;
   &lt;li&gt;Performance issues. Imagine loading 20 high resolution images at the same time. On an average system, your browser would crap its pants. I’ve done some stuff to make &lt;em&gt;griddit&lt;/em&gt; very efficient and fast, but obviously there’s more that can be done.&lt;/li&gt;
+  &lt;li&gt;No support for albums for now.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
@@ -74,7 +77,7 @@
 
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/I6bLwbh.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/reddit-griddit&quot;&gt;Reddit is Flawed - My Attempt at Fixing it&lt;/a&gt; was originally published by Karan Goel at &lt;a href=&quot;http://localhost:4000&quot;&gt;Karan Goel&lt;/a&gt; on May 25, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/reddit-is-flawed&quot;&gt;Reddit is Flawed - My Attempt at Fixing it&lt;/a&gt; was originally published by Karan Goel at &lt;a href=&quot;http://localhost:4000&quot;&gt;Karan Goel&lt;/a&gt; on May 25, 2014.&lt;/p&gt;</content>
 </entry>
 
 
