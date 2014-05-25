@@ -51,7 +51,7 @@ Now obviosuly this isn't a perfect prototype. What's missing is:
 
 ## Conclusion
 
-*griddit* is my vision of what image-based subreddits should look like. It's not perfect. It's not the best solution either. If you don't agree with me, or have feedback about *griddit*, please leave a comment below.
+*griddit* is my vision of what image-based subreddits should look like. It's not perfect. It's not the best solution either. If you don't agree with me, or have feedback about *griddit*, please leave a comment below. If you'd like to contribute code, check out the [repo on Github](https://github.com/karan/griddit).
 
 If you think you agree with me, please consider sharing this post. Spread the word.
 
