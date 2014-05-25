@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2014-05-25T10:51:54-07:00</updated>
+<updated>2014-05-25T12:01:01-07:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Karan Goel</name>
@@ -24,7 +24,55 @@
     <uri>http://localhost:4000</uri>
     <email>karan@goel.im</email>
   </author>
-  <content type="html">&lt;p&gt;Hello world&lt;/p&gt;
+  <content type="html">&lt;p&gt;This isn’t a post about &lt;a href=&quot;http://technotes.iangreenleaf.com/posts/2013-12-09-reddits-empire-is-built-on-a-flawed-algorithm.html&quot;&gt;Reddit’s flawed algorithm&lt;/a&gt;. This is a post about a fundamental flaw that affects most of the 2.5 million redditors and has been there since the site started.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/8D2H0RB.jpg?2&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As it is right now, Reddit favors text more than any other form of content. Even for image-based subreddits (like r/cats, r/pics), the primary emphasis is on the submission title or caption and not on the image itself. All you see if a small thumbnail of the image itself. Most of the times, a crappy image wil hit the frontpage based on a clever title. &lt;strong&gt;That is the flaw&lt;/strong&gt; - judging an image based on its title.&lt;/p&gt;
+
+&lt;p&gt;As such, it isn’t very hard to garner tons of karma with almost no effort:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Choose an image-based subreddit with a lot of activity&lt;/li&gt;
+  &lt;li&gt;Browse through a few pages on the “hot” page of the subreddit. Keep note of what people seem to like&lt;/li&gt;
+  &lt;li&gt;Find an image that is slightly relevant to the topic of the subreddit&lt;/li&gt;
+  &lt;li&gt;Think of a caption for the image. Doesn’t have to be accurate but must contain keywords from step 2.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Bingo! Watch as the holy river of karma flows in.&lt;/p&gt;
+
+&lt;p&gt;But wait, there’s more: The basic principles of web design suggest that to give value to your user, consuming the content should be obvious to the user. The current design of Reddit forces the user to click an extra link to consume the primary content of a subreddit. No UX book would ever, ever, ever recommend this.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-what-should-happen-how-can-this-be-fixed&quot;&gt;So what should happen? How can this be fixed?&lt;/h3&gt;
+
+&lt;p&gt;I think it’s not something that the community can fix by themselves - it’s a problem with the platform. Reddit is inherently built to be a platform to support discussions about a central topic. This, however, doesn’t hold true so much for images. People upvote an image if they like. There’s hardly ever any scope for some meaningful discussion there.&lt;/p&gt;
+
+&lt;p&gt;So here’s what I suggest: strip everything from image-based subreddits but the images themselves. I took some time to &lt;a href=&quot;http://karan.github.io/griddit&quot;&gt;prototype&lt;/a&gt; this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://karan.github.io/griddit&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/karan/griddit/gh-pages/screen.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Some things I’d like you to notice:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;It’s content first - there’s no fillers, no crap. Only the content that the user want to consume.&lt;/li&gt;
+  &lt;li&gt;The emphasis here is on the images and not on the title or the user who submitted them.&lt;/li&gt;
+  &lt;li&gt;If the user likes the image, they can click through to the thread and have a discussion there.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now obviosuly this isn’t a perfect prototype. What’s missing is:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;No upvoting. I think it’s important to have voting feature embedded in each image block. I didn’t do this because this add more complexity than I wanted to have in a weekend project.&lt;/li&gt;
+  &lt;li&gt;Performance issues. Imagine loading 20 high resolution images at the same time. On an average system, your browser would crap its pants. I’ve done some stuff to make &lt;em&gt;griddit&lt;/em&gt; very efficient and fast, but obviously there’s more that can be done.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;griddit&lt;/em&gt; is my vision of what image-based subreddits should look like. It’s not perfect. It’s not the best solution either. If you don’t agree with me, or have feedback about &lt;em&gt;griddit&lt;/em&gt;, please leave a comment below.&lt;/p&gt;
+
+&lt;p&gt;If you think you agree with me, please consider sharing this post. Spread the word.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/I6bLwbh.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/reddit-griddit&quot;&gt;Reddit is Flawed - My Attempt at Fixing it&lt;/a&gt; was originally published by Karan Goel at &lt;a href=&quot;http://localhost:4000&quot;&gt;Karan Goel&lt;/a&gt; on May 25, 2014.&lt;/p&gt;</content>
 </entry>

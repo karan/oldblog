@@ -132,7 +132,55 @@
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>Hello world</p>
+      <p>This isn’t a post about <a href="http://technotes.iangreenleaf.com/posts/2013-12-09-reddits-empire-is-built-on-a-flawed-algorithm.html">Reddit’s flawed algorithm</a>. This is a post about a fundamental flaw that affects most of the 2.5 million redditors and has been there since the site started.</p>
+
+<p><img src="http://i.imgur.com/8D2H0RB.jpg?2" alt="" /></p>
+
+<p>As it is right now, Reddit favors text more than any other form of content. Even for image-based subreddits (like r/cats, r/pics), the primary emphasis is on the submission title or caption and not on the image itself. All you see if a small thumbnail of the image itself. Most of the times, a crappy image wil hit the frontpage based on a clever title. <strong>That is the flaw</strong> - judging an image based on its title.</p>
+
+<p>As such, it isn’t very hard to garner tons of karma with almost no effort:</p>
+
+<ol>
+  <li>Choose an image-based subreddit with a lot of activity</li>
+  <li>Browse through a few pages on the “hot” page of the subreddit. Keep note of what people seem to like</li>
+  <li>Find an image that is slightly relevant to the topic of the subreddit</li>
+  <li>Think of a caption for the image. Doesn’t have to be accurate but must contain keywords from step 2.</li>
+</ol>
+
+<p>Bingo! Watch as the holy river of karma flows in.</p>
+
+<p>But wait, there’s more: The basic principles of web design suggest that to give value to your user, consuming the content should be obvious to the user. The current design of Reddit forces the user to click an extra link to consume the primary content of a subreddit. No UX book would ever, ever, ever recommend this.</p>
+
+<h3 id="so-what-should-happen-how-can-this-be-fixed">So what should happen? How can this be fixed?</h3>
+
+<p>I think it’s not something that the community can fix by themselves - it’s a problem with the platform. Reddit is inherently built to be a platform to support discussions about a central topic. This, however, doesn’t hold true so much for images. People upvote an image if they like. There’s hardly ever any scope for some meaningful discussion there.</p>
+
+<p>So here’s what I suggest: strip everything from image-based subreddits but the images themselves. I took some time to <a href="http://karan.github.io/griddit">prototype</a> this:</p>
+
+<p><a href="http://karan.github.io/griddit"><img src="https://raw.githubusercontent.com/karan/griddit/gh-pages/screen.jpg" alt="" /></a></p>
+
+<p>Some things I’d like you to notice:</p>
+
+<ol>
+  <li>It’s content first - there’s no fillers, no crap. Only the content that the user want to consume.</li>
+  <li>The emphasis here is on the images and not on the title or the user who submitted them.</li>
+  <li>If the user likes the image, they can click through to the thread and have a discussion there.</li>
+</ol>
+
+<p>Now obviosuly this isn’t a perfect prototype. What’s missing is:</p>
+
+<ol>
+  <li>No upvoting. I think it’s important to have voting feature embedded in each image block. I didn’t do this because this add more complexity than I wanted to have in a weekend project.</li>
+  <li>Performance issues. Imagine loading 20 high resolution images at the same time. On an average system, your browser would crap its pants. I’ve done some stuff to make <em>griddit</em> very efficient and fast, but obviously there’s more that can be done.</li>
+</ol>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p><em>griddit</em> is my vision of what image-based subreddits should look like. It’s not perfect. It’s not the best solution either. If you don’t agree with me, or have feedback about <em>griddit</em>, please leave a comment below.</p>
+
+<p>If you think you agree with me, please consider sharing this post. Spread the word.</p>
+
+<p><img src="http://i.imgur.com/I6bLwbh.jpg" alt="" /></p>
 
       <footer class="entry-meta">
         <div id="post-end">
