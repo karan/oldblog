@@ -1,4 +1,4 @@
-title:            Karan Goel
+title:            Waseem Tabraze
 description:      Programming and life
 disqus_shortname: karan-github
 #Your site's domain goes here. Leave localhost server or blank when working locally.
@@ -9,12 +9,12 @@ url:              http://waseem18.github.io
 owner:
   name:           Waseem Tabraze
   avatar:         avatar.jpg
-  bio:            "Karan Goel is a Computer science student who loves to code and make stuff."
-  email:          karan@goel.im
+  bio:            "Waseem Tabraze is a Computer science student who loves to code and make stuff."
+  email:          waseem.tabraze@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        waseemtabraze
   facebook:       
-  github:         karan
+  github:         waseem18
   stackexchange:  
   linkedin:       
   instagram:      
@@ -36,10 +36,10 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Github
-    url: http://github.com/karan
+    url: http://github.com/waseem18
     external: true
   - title: Twitter
-    url: http://twitter.com/TheKaranGoel
+    url: http://twitter.com/waseemtabraze
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
