@@ -3,16 +3,16 @@ description:      Programming and life
 disqus_shortname: karan-github
 #Your site's domain goes here. Leave localhost server or blank when working locally.
 # url: http://localhost:4000
-url:              http://karan.github.io
+url:              http://waseem18.github.io
 
 # Owner/author information
 owner:
-  name:           Karan Goel
+  name:           Waseem Tabraze
   avatar:         avatar.jpg
   bio:            "Karan Goel is a Computer science student who loves to code and make stuff."
   email:          karan@goel.im
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        TheKaranGoel
+  twitter:        waseemtabraze
   facebook:       
   github:         karan
   stackexchange:  
