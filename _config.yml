@@ -2,17 +2,17 @@ title:            Karan Goel
 description:      Programming and life
 disqus_shortname: karan-github
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-# url: http://localhost:4000
-url:              http://karan.github.io
+url: http://localhost:4000
+# url:              http://karan.github.io
 
 # Owner/author information
 owner:
   name:           Karan Goel
   avatar:         avatar.jpg
-  bio:            "Karan Goel is a Computer science student who loves to code and make stuff."
+  bio:            "I'm a Computer science student who loves to code and make stuff."
   email:          karan@goel.im
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        TheKaranGoel
+  twitter:        KaranGoel
   facebook:       
   github:         karan
   stackexchange:  
@@ -39,7 +39,7 @@ links:
     url: http://github.com/karan
     external: true
   - title: Twitter
-    url: http://twitter.com/TheKaranGoel
+    url: http://twitter.com/KaranGoel
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
