@@ -86,7 +86,7 @@ I found it a little ironic that one of the top hacker sites had no open, working
 
 ### A secret project
 
-Just last week, a friend and I started working on a new web app - a new way to discover and listen to music. It's still under development so I can't talk much about it. We're building it on the [MEAN](http://mean.io/) stack, which I knew nothing about until a few days ago. I spent 3 days, in my room, writing code, reading up online about JS, node, express and pushed [tons of code](https://twitter.com/TheKaranGoel/status/417558558645813248). Even if this app isn't complete on time, I'll still be proud of learning a lagnuage in only a few days, enough to be able to make something usage (or maybe a prototype).
+Just last week, a friend and I started working on a new web app - a new way to discover and listen to music. It's still under development so I can't talk much about it. We're building it on the [MEAN](http://mean.io/) stack, which I knew nothing about until a few days ago. I spent 3 days, in my room, writing code, reading up online about JS, node, express and pushed [tons of code](https://twitter.com/KaranGoel/status/417558558645813248). Even if this app isn't complete on time, I'll still be proud of learning a lagnuage in only a few days, enough to be able to make something usage (or maybe a prototype).
 
 -------
 
@@ -120,6 +120,6 @@ That's all for now folks. Here's to a prosperous 2014!
 
 --------
 
-If you'd like to comment on this post, hop on to [Twitter](https://twitter.com/TheKaranGoel), or send me an [email](mailto:karan@goel.im).
+If you'd like to comment on this post, hop on to [Twitter](https://twitter.com/KaranGoel), or send me an [email](mailto:karan@goel.im).
 
 *This post was hugely inspired by [Ian Webster's](http://www.ianww.com/blog/2013/12/31/my-year-in-side-projects/).*

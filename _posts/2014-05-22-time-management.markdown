@@ -16,7 +16,7 @@ Picture this: Full-time student taking full course load, working part time, lead
 
 Seems like impossible, doesn't it? That's my life in under 50 words. I'm often asked by many about how I manage my time, and I find myself repeating the answer. So, what’s my secret? Here’s how to be a highly productive student by hacking your time:
 
-*Note: This won't be a long post (trying not be ironic here), but I'll try to get my message across. There is no particular order for the tips here, but I've tried to make the order slightly meaningful. If you find anything ambiguous or wrong, [get in touch](http://twitter.com/TheKaranGoel).*
+*Note: This won't be a long post (trying not be ironic here), but I'll try to get my message across. There is no particular order for the tips here, but I've tried to make the order slightly meaningful. If you find anything ambiguous or wrong, [get in touch](http://twitter.com/KaranGoel).*
 
 ### Set the alarm for an hour early - even on weekends
 

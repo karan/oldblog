@@ -220,7 +220,7 @@ So is there no way to beat spammers? Of course there is.
 
 I have made all scripts used to analyse the data available on [Github](https://github.com/karan/SpamHarvestUW). This code was written when I was just starting to learn Python, so please excuse the code quality.
 
-What do you think of our research? Reach out to me via Twitter ([@TheKaranGoel](http://twitter.com/TheKaranGoel)) or via email: karan@goel.im
+What do you think of our research? Reach out to me via Twitter ([@KaranGoel](http://twitter.com/KaranGoel)) or via email: karan@goel.im
 
 ----------
 
