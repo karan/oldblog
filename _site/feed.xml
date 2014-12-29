@@ -4,13 +4,51 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://karan.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://karan.github.io" />
-<updated>2014-06-21T00:20:01-07:00</updated>
+<updated>2014-12-29T11:21:21-08:00</updated>
 <id>http://karan.github.io/</id>
 <author>
   <name>Karan Goel</name>
   <uri>http://karan.github.io/</uri>
   <email>karan@goel.im</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[The Year it Was — A Comprehensive Personal Year-In-Review (2014)]]></title>
+ <link rel="alternate" type="text/html" href="http://karan.github.io/2014-review" />
+  <id>http://karan.github.io/2014-review</id>
+  <published>2014-12-26T08:42:00Z</published>
+  <updated>2014-12-26T08:42:00Z</updated>
+  <author>
+    <name>Karan Goel</name>
+    <uri>http://karan.github.io</uri>
+    <email>karan@goel.im</email>
+  </author>
+  <content type="html">&lt;script async=&quot;&quot; src=&quot;https://static.medium.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a class=&quot;m-story&quot; data-collapsed=&quot;true&quot; href=&quot;https://medium.com/@karan/the-year-it-was-a-comprehensive-personal-year-in-review-2014-14c1fcfcec4b&quot;&gt;The Year it Was — A Comprehensive Personal Year-In-Review (2014)&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://karan.github.io/2014-review&quot;&gt;The Year it Was — A Comprehensive Personal Year-In-Review (2014)&lt;/a&gt; was originally published by Karan Goel at &lt;a href=&quot;http://karan.github.io&quot;&gt;Karan Goel&lt;/a&gt; on December 26, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[My Top Reads from 2014 — Startups, Tech, Life]]></title>
+ <link rel="alternate" type="text/html" href="http://karan.github.io/2014-reading" />
+  <id>http://karan.github.io/2014-readings</id>
+  <published>2014-12-24T08:42:00Z</published>
+  <updated>2014-12-24T08:42:00Z</updated>
+  <author>
+    <name>Karan Goel</name>
+    <uri>http://karan.github.io</uri>
+    <email>karan@goel.im</email>
+  </author>
+  <content type="html">&lt;script async=&quot;&quot; src=&quot;https://static.medium.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a class=&quot;m-story&quot; data-collapsed=&quot;true&quot; href=&quot;https://medium.com/@karan/my-top-reads-from-2014-startups-tech-life-76ab2f355517&quot;&gt;My Top Reads from 2014 — Startups, Tech, Life&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://karan.github.io/2014-reading&quot;&gt;My Top Reads from 2014 — Startups, Tech, Life&lt;/a&gt; was originally published by Karan Goel at &lt;a href=&quot;http://karan.github.io&quot;&gt;Karan Goel&lt;/a&gt; on December 24, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
