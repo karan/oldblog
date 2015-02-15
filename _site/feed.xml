@@ -4,13 +4,32 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://karan.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://karan.github.io" />
-<updated>2014-12-29T11:21:21-08:00</updated>
+<updated>2015-02-15T12:30:28-08:00</updated>
 <id>http://karan.github.io/</id>
 <author>
   <name>Karan Goel</name>
   <uri>http://karan.github.io/</uri>
   <email>karan@goel.im</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Exactly How to Build Habits to Lead a Better Life in 2015]]></title>
+ <link rel="alternate" type="text/html" href="http://karan.github.io/habits" />
+  <id>http://karan.github.io/habits</id>
+  <published>2015-01-02T08:42:00Z</published>
+  <updated>2015-01-02T08:42:00Z</updated>
+  <author>
+    <name>Karan Goel</name>
+    <uri>http://karan.github.io</uri>
+    <email>karan@goel.im</email>
+  </author>
+  <content type="html">&lt;script async=&quot;&quot; src=&quot;https://static.medium.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a class=&quot;m-story&quot; data-collapsed=&quot;true&quot; href=&quot;https://medium.com/@karan/exactly-how-to-build-habits-to-lead-a-better-life-in-2015-922714665e23&quot;&gt;Exactly How to Build Habits to Lead a Better Life in 2015&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://karan.github.io/habits&quot;&gt;Exactly How to Build Habits to Lead a Better Life in 2015&lt;/a&gt; was originally published by Karan Goel at &lt;a href=&quot;http://karan.github.io&quot;&gt;Karan Goel&lt;/a&gt; on January 02, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
