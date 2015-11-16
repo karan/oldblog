@@ -1,73 +1,150 @@
----
-layout: post-index
-title: Home
-description: "Blog of Waseem Tabraze."
-tags: [waseem tabraze, algorithms,competitive programming,algorithms,spoj,topcoder, blog, programming, coding]
-image:
-  feature: main.jpg
-  credit: artbystevejohnson
-  creditlink: https://www.flickr.com/photos/artbystevejohnson/8479160301/sizes/l/
----
-
-
-<!-- WASEEM TABRAZE -->
-<!-- WASEEM TABRAZE -->
-<!-- WASEEM TABRAZE -->	
-
-
-{% for post in paginator.posts %}
-<article class="hentry">
-  <header>
-    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>{% if site.disqus_shortname and post.comments %}&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="{{ site.url }}{{ post.url }}#disqus_thread">Comment</a></span>{% endif %}</div><!-- /.entry-meta -->
-    {% if post.link %}
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}"><i class="icon-double-angle-right"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
-    {% else %}
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
-    {% endif %}
-  </header>
-  <div class="entry-content">
-    {{ post.excerpt }}
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
-{% endfor %}
-
-<!-- WASEEM TABRAZE -->
-<!-- WASEEM TABRAZE -->
-<!-- WASEEM TABRAZE -->	
-
-
-
-<div class="pagination">
-  {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-      <a href="{{ site.url }}" class="btn">Previous</a>
-    {% else %}
-      <a href="{{ site.url }}/page{{ paginator.previous_page }}" class="btn">Previous</a>
-    {% endif %}
-  {% else %}
-    Previous
-  {% endif %}
-  <ul class="inline-list">
-    <li>
-      {% if paginator.page == 1 %}
-        <span class="current-page">1</span>
-      {% else %}
-        <a href="{{ site.url }}">1</a>
-      {% endif %}
-    </li>
-    {% for count in (2..paginator.total_pages) %}
-      <li>
-        {% if count == paginator.page %}
-          <span class="current-page">{{ count }}</span>
-        {% else %}
-          <a href="{{ site.url }}/page{{ count }}">{{ count }}</a>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-  {% if paginator.next_page %}
-    <a href="{{ site.url }}/page{{ paginator.next_page }}" class="btn">Next</a>
-  {% else %}
-    Next
-  {% endif %}
-</div><!-- /.pagination -->
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home of Wasim Thabraze</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="Wasim Thabraze,Wasim, Thabraze, Waseem, Tabraze, Waseem Tabraze, gitpromote">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/social-buttons.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <style type="text/css">
+      #aboutme {
+      text-align: center;
+      margin-left: 175px;
+    }
+  </style>
+    
+  </head>
+  <body>
+    <div class="container">
+      <!-- navbar-->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+          </div>
+          <!--a.navbar-brand(href="#")-->
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#">Resume</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="top" class="jumbotron">
+      <div class="container">
+        <div class="col-md-8" id="aboutme">
+          <h1 class="text-center">Hi. I'm <strong>Wasim Thabraze</strong></h1>
+          <p class="custom text-center">I'm an undergraduate Computer Science student who loves to code. I like solving algorithmic challenges and making apps that impacts the society.</p>
+          <p class="custom text-center">
+            I love both Competitive programming and Open source. I'm currently learning Erlang and working on <a href="https://github.com/waseem18/gitpromote">gitpromote</a>, a social utility for github users.
+          </p>
+          <div class="btn-group"><a href="http://github.com/waseem18" role="button" class="btn btn-success btn-default">I'm on Github</a><a href="#projects" role="button" class="btn btn-primary btn-default">See my projects</a></div>
+        </div>
+      </div>
+    </div>
+    <div id="projects" class="jumbotron">
+      <div class="container projects">
+        <h1 class="text-center custom">Projects</h1>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 scale-projects">
+            <div class="thumbnail"><a href="https://github.com/waseem18/gitpromote"><img src="images/Capture.PNG" class="img-responsive"></a>
+              <h2 class="custom"><a href="https://github.com/waseem18/gitpromote">gitpromote</a></h2>
+              <stack-tag>Python</stack-tag>
+              <p class="custom-projects">gitpromote is a social platform for github users to promote their projects and gain help. Built using Google App Engine<br>Access at <b><a href="https://gitpromote.appspot.com">gitpromote</a></b></p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 scale-projects">
+            <div class="thumbnail"><a href="https://github.com/waseem18/Unofficial-Quora-API"><img src="images/quora-logo.jpg" class="img-responsive"></a>
+              <h2 class="custom"><a href="https://github.com/waseem18/Unofficial-Quora-API">Unofficial Quora API</a></h2>
+              <stack-tag>Python</stack-tag>
+              <p class="custom-projects">Unofficial Quora API to extract the answers of a question and statistics of a user.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 scale-projects">
+            <div class="thumbnail"><a href="https://github.com/waseem18/Shorten-it"><img src="images/img_url-shortener.jpg" class="img-responsive"></a>
+              <h2 class="custom"><a href="https://github.com/waseem18/Shorten-it">Shorten it</a></h2>
+              <stack-tag>Python</stack-tag>
+              <p class="custom-projects">A high performance Url shortener with custom path feature available.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 scale-projects">
+            <div class="thumbnail"><a href="https://github.com/waseem18/Is-your-website-down-"><img src="images/tpb.jpg" class="img-responsive"></a>
+              <h2 class="custom"><a href="https://github.com/waseem18/Is-your-website-down-">Is your website down?</a></h2>
+              <stack-tag>Python</stack-tag>
+              <p class="custom-projects">The script is aimed at notifying users when their websites go down. Used uptime robot for monitoring websites and twilio for sending messages</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 scale-projects">
+            <div class="thumbnail"><a href="#"><img src="images/sci.jpg" class="img-responsive"></a>
+              <h2 class="custom"><a href="#">Sound Cloud Instant</a></h2>
+              <stack-tag>JavaScript</stack-tag>
+              <p class="custom-projects">Instantly plays Sound cloud tracks. Inspired by <a href="http://ytinstant.com">ytinstant</a></p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 scale-projects">
+            <div class="thumbnail"><a href="#"><img src="images/geek.jpg" class="img-responsive"></a>
+              <h2 class="custom"><a href="#">Geek tweet</a></h2>
+              <stack-tag>Python</stack-tag>
+              <p class="custom-projects">Geek tweet tweets the trending programming or web related news. Implemented using Tweepy.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+        </div>
+          
+      </div>
+    </div>
+    <div id="about" class="jumbotron">
+      <div class="container projects">
+        <h1 class="text-center custom">People call me Wasim.</h1>
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail"><img src="images/uwcse.png" class="img-responsive">
+              <p class="custom-projects">Originally from <a href="en.wikipedia.org/Hyderabad">Hyderabad</a>, India. I'm an undergraduate working towards a BE degree in <a href="en.wikipedia.org/ComputerScience">Computer Science</a>.That means I <a title="Wasim Thabraze @ GitHub" href="http://github.com/waseem18">code</a>. Broadly, I'm interested in making apps and scripts that help improve end-user productivity and impact society. I'm also interested in building API's.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail"><img src="images/banner.jpg" class="img-responsive">
+              <p class="custom-projects">I'm currently learning <a href="http://en.wikipedia.org/wiki/Erlang_(programming_language)">Erlag</a> to understand the paradigm of <a href="http://en.wikipedia.org/wiki/Functional_programming">Functional programming</a>. By taking help on IRC channels I'm also studying the codebase of <a href="https://github.com/waseem18/gecko-dev">Mozilla</a> to report any bug patches and add new features.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail"><img src="images/cmp.png" class="img-responsive">
+              <p class="custom-projects">I have recently started solving problems on <a href="http://www.spoj.com/users/waseem18">SPOJ</a> and have also become a Problem setter. I particularly like solving problems related to Dynamic Programming. I'm also competing in ACM-ICPC aiming to reach World finals.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="jumbotron">
+      <div class="container projects">
+        <h1 class="text-center custom">Contact me</h1>
+        <div class="row">
+          <div class="col-md-1 custom-btn col-md-offset-3"><a href="mailto:waseem.tabraze@gmail.com" role="button" class="btn btn-vk btn-xlarge"><i class="fa fa-envelope-o"></i></a></div>
+          <div class="col-md-1 custom-btn"><a href="http://github.com/waseem18" role="button" class="btn btn-github btn-xlarge"><i class="fa fa-github"></i></a></div>
+          <div class="col-md-1 custom-btn"><a href="https://plus.google.com/u/0/+WaseemTabraze" role="button" class="btn btn-google-plus btn-xlarge"><i class="fa fa-google-plus"></i></a></div>
+          <div class="col-md-1 custom-btn"><a href="http://facebook.com/wasim.thabraze" role="button" class="btn btn-facebook btn-xlarge"><i class="fa fa-facebook"></i></a></div>
+          <div class="col-md-1 custom-btn"><a href="http://twitter.com/wasimthabraze" role="button" class="btn btn-twitter btn-xlarge"><i class="fa fa-twitter"></i></a></div>
+          <div class="col-md-1 custom-btn"><a href="https://www.linkedin.com/profile/view?id=302496834" role="button" class="btn btn-linkedin btn-xlarge"><i class="fa fa-linkedin"></i></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="text-center">Created by Wasim Thabraze. Built with Bootstrap, HTML5, jQuery, CSS3 and lots of <span class="glyphicon glyphicon-heart-empty"></span></p>
+    </div>
+  </body>
+</html>
